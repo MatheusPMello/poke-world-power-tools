@@ -1,26 +1,23 @@
 import React from 'react';
 import { Sword, Shield, Zap, Activity, Minus, Plus } from 'lucide-react';
+import PokemonImage from './PokemonImage';
+import TypeBadges from './TypeBadges';
 
-export default function PokemonCard({ pokemon, rankingMode, team = [], setTeam, inTeamPanel = false }) {
-  // Using pokeapi sprites for better visual quality since local game assets might not be available or are generic.
-  const imageUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.pokeId}.png`;
-
+export default function PokemonCard({ pokemon, rankingMode, team = [], toggleTeam, inTeamPanel = false, onPokemonClick }) {
   const isInTeam = team.some(p => p.pokeId === pokemon.pokeId);
 
-  const toggleTeam = () => {
-    if (isInTeam) {
-      setTeam(team.filter(p => p.pokeId !== pokemon.pokeId));
-    } else {
-      if (team.length >= 6) {
-        alert("Seu time já está cheio (Máximo 6).");
-        return;
-      }
-      setTeam([...team, pokemon]);
+  const handleToggle = (e) => {
+    if (e) e.stopPropagation();
+    if (toggleTeam) {
+      toggleTeam(pokemon);
     }
   };
 
   return (
-    <div className="pokemon-card glass">
+    <div 
+      className={`pokemon-card glass ${onPokemonClick ? 'clickable' : ''}`}
+      onClick={() => onPokemonClick && onPokemonClick(pokemon)}
+    >
       <div className="card-header">
         <div>
           <h3 className="pokemon-name">{pokemon.name}</h3>
@@ -28,7 +25,7 @@ export default function PokemonCard({ pokemon, rankingMode, team = [], setTeam, 
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.5rem' }}>
           <button 
-            onClick={toggleTeam}
+            onClick={handleToggle}
             className={`team-toggle-btn ${isInTeam ? 'remove' : 'add'}`}
             title={isInTeam ? "Remover do time" : "Adicionar ao time"}
           >
@@ -46,23 +43,9 @@ export default function PokemonCard({ pokemon, rankingMode, team = [], setTeam, 
       </div>
       
       <div className="card-image-container">
-        <img 
-          src={imageUrl} 
-          alt={pokemon.name} 
-          className="pokemon-image"
-          onError={(e) => { e.target.src = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png'; }} // fallback
-        />
+        <PokemonImage pokeId={pokemon.pokeId} name={pokemon.name} className="pokemon-image" />
         <div className="types-container compact">
-          {pokemon.type1 && (
-            <span className="type-badge" style={{ backgroundColor: `var(--type-${pokemon.type1.toLowerCase()})` }}>
-              {pokemon.type1}
-            </span>
-          )}
-          {pokemon.type2 && (
-            <span className="type-badge" style={{ backgroundColor: `var(--type-${pokemon.type2.toLowerCase()})` }}>
-              {pokemon.type2}
-            </span>
-          )}
+          <TypeBadges type1={pokemon.type1} type2={pokemon.type2} />
         </div>
       </div>
 

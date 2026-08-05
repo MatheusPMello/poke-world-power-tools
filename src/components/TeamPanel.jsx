@@ -1,7 +1,7 @@
 import React from 'react';
 import PokemonCard from './PokemonCard';
 
-export default function TeamPanel({ team, setTeam, rankingMode }) {
+export default function TeamPanel({ team, clearTeam, toggleTeam, rankingMode }) {
   if (!team || team.length === 0) return null;
 
   const totalPower = team.reduce((sum, p) => sum + (p.activeScore || p.dps || 0), 0);
@@ -13,7 +13,7 @@ export default function TeamPanel({ team, setTeam, rankingMode }) {
           <h2>Seu Time ({team.length}/6)</h2>
           <button 
             className="team-clear-btn"
-            onClick={() => setTeam([])}
+            onClick={clearTeam}
             title="Limpar Time"
           >
             Limpar
@@ -30,7 +30,7 @@ export default function TeamPanel({ team, setTeam, rankingMode }) {
             pokemon={pokemon} 
             rankingMode={rankingMode}
             team={team} 
-            setTeam={setTeam} 
+            toggleTeam={toggleTeam} 
             inTeamPanel={true} 
           />
         ))}

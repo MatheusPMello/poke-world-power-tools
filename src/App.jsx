@@ -1,27 +1,35 @@
 import React, { useState, useMemo } from 'react';
-import creaturesJson from './data/creatures.json';
-import { processPokemons, getTieredPokemons, getAllTypes, CLANS } from './utils/calculations';
+import { useCreaturesData } from './hooks/useCreaturesData';
+import { processPokemons, getTieredPokemons, getAllTypes } from './utils/calculations';
 import { useTeam } from './hooks/useTeam';
-import FilterBar from './components/FilterBar';
+import { useFilters } from './hooks/useFilters';
+import ControlsPanel from './components/ControlsPanel';
 import PokemonList from './components/PokemonList';
 import TeamPanel from './components/TeamPanel';
 import ErrorBoundary from './components/ErrorBoundary';
+import PokemonModal from './components/PokemonModal';
 import './index.css';
 
 function App() {
-  const [activeFilter, setActiveFilter] = useState('Todos');
-  const [rankingMode, setRankingMode] = useState('dps'); // 'dps' or 'balanced'
-  const [include600, setInclude600] = useState(true);
-  const [considerCooldown, setConsiderCooldown] = useState(false);
-  const [considerSpeed, setConsiderSpeed] = useState(false);
-  const [allowTypeOverlap, setAllowTypeOverlap] = useState(false);
-  const [selectedClan, setSelectedClan] = useState('Nenhum');
-  const { team, setTeam, toggleTeam, autoBuild } = useTeam();
+  const filters = useFilters();
+  const {
+    activeFilter,
+    rankingMode,
+    include600,
+    considerCooldown,
+    considerSpeed,
+    allowTypeOverlap,
+    selectedClan
+  } = filters;
+
+  const [selectedPokemon, setSelectedPokemon] = useState(null);
+  const { team, toggleTeam, clearTeam, autoBuild } = useTeam();
+  const { creatures, loading, error } = useCreaturesData();
 
   // Step 1: Process all pokemons once
   const processedData = useMemo(() => {
-    return processPokemons(creaturesJson.creatures || [], include600, considerCooldown, considerSpeed, selectedClan);
-  }, [include600, considerCooldown, considerSpeed, selectedClan]);
+    return processPokemons(creatures, include600, considerCooldown, considerSpeed, selectedClan);
+  }, [creatures, include600, considerCooldown, considerSpeed, selectedClan]);
 
   // Step 2: Sort and assign tiers based on the selected mode
   const pokemons = useMemo(() => {
@@ -44,134 +52,58 @@ function App() {
     autoBuild(filteredPokemons, allowTypeOverlap);
   };
 
+  if (loading) {
+    return (
+      <div className="app-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', color: '#f8fafc' }}>
+        <div style={{ textAlign: 'center' }}>
+          <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Carregando dados...</h2>
+          <p style={{ color: '#94a3b8' }}>Buscando as informações mais recentes.</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="app-container">
+      {error && (
+        <div style={{ backgroundColor: '#ef4444', color: 'white', padding: '0.75rem', textAlign: 'center', fontWeight: 'bold' }}>
+          {error}
+        </div>
+      )}
       <header>
         <h1>Poke Idle World Tier List</h1>
         <p className="subtitle">
           Ranking dos melhores Pokémons baseados na sua estatística escolhida!
         </p>
-        <div className="control-panel glass">
-          <div className="control-group">
-            <span className="control-label">Modo de Ranking:</span>
-            <div className="button-group">
-              <button 
-                className={`filter-btn ${rankingMode === 'dps' ? 'active' : ''}`}
-                onClick={() => setRankingMode('dps')}
-              >
-                🔥 Dano Máximo
-              </button>
-              <button 
-                className={`filter-btn ${rankingMode === 'balanced' ? 'active' : ''}`}
-                onClick={() => setRankingMode('balanced')}
-              >
-                🛡️ Equilibrado
-              </button>
-            </div>
-          </div>
-
-          <div className="control-group">
-            <span className="control-label">Clã (Rank 5):</span>
-            <div className="button-group">
-              <div className="filter-dropdown-container">
-                <select 
-                  className="filter-select"
-                  value={selectedClan}
-                  onChange={(e) => setSelectedClan(e.target.value)}
-                  style={{ padding: '0.6rem 2.5rem 0.6rem 1rem' }}
-                >
-                  {Object.keys(CLANS).map(clan => (
-                    <option key={clan} value={clan}>{clan}</option>
-                  ))}
-                </select>
-              </div>
-            </div>
-          </div>
-
-          <div className="control-group">
-            <span className="control-label">Filtros de Tipo:</span>
-            <div className="button-group">
-              <FilterBar 
-                types={types} 
-                activeFilter={activeFilter} 
-                onFilterChange={setActiveFilter} 
-              />
-            </div>
-          </div>
-          
-          <div className="control-group">
-            <span className="control-label">&nbsp;</span>
-            <div className="button-group">
-              <button 
-                className="filter-btn active" 
-                onClick={handleAutoBuild}
-                style={{ padding: '0.6rem 1.5rem', background: '#3b82f6', border: '1px solid #60a5fa', fontWeight: 'bold' }}
-              >
-                ✨ Auto-Montar Time
-              </button>
-            </div>
-          </div>
-
-          <div className="control-group checkbox-group-container">
-            <label className="checkbox-label small-label">
-              <label className="toggle-switch">
-                <input 
-                  type="checkbox" 
-                  checked={include600} 
-                  onChange={(e) => setInclude600(e.target.checked)}
-                />
-                <span className="toggle-slider"></span>
-              </label>
-              TMs (600+)
-            </label>
-            <label className="checkbox-label small-label">
-              <label className="toggle-switch">
-                <input 
-                  type="checkbox" 
-                  checked={considerCooldown} 
-                  onChange={(e) => setConsiderCooldown(e.target.checked)}
-                />
-                <span className="toggle-slider"></span>
-              </label>
-              Cooldown
-            </label>
-            <label className="checkbox-label small-label">
-              <label className="toggle-switch">
-                <input 
-                  type="checkbox" 
-                  checked={considerSpeed} 
-                  onChange={(e) => setConsiderSpeed(e.target.checked)}
-                />
-                <span className="toggle-slider"></span>
-              </label>
-              Velocidade
-            </label>
-            <label className="checkbox-label small-label">
-              <label className="toggle-switch">
-                <input 
-                  type="checkbox" 
-                  checked={allowTypeOverlap} 
-                  onChange={(e) => setAllowTypeOverlap(e.target.checked)}
-                />
-                <span className="toggle-slider"></span>
-              </label>
-              Permitir Tipos Repetidos
-            </label>
-          </div>
-        </div>
+        <ControlsPanel 
+          filters={filters} 
+          types={types} 
+          onAutoBuild={handleAutoBuild} 
+        />
       </header>
       
       <main>
         <ErrorBoundary>
-          <TeamPanel team={team} setTeam={setTeam} rankingMode={rankingMode} />
+          <TeamPanel 
+            team={team} 
+            clearTeam={clearTeam} 
+            toggleTeam={toggleTeam} 
+            rankingMode={rankingMode} 
+          />
           <PokemonList 
             pokemons={filteredPokemons} 
             rankingMode={rankingMode} 
             team={team} 
-            setTeam={setTeam} 
+            toggleTeam={toggleTeam}
+            onPokemonClick={setSelectedPokemon}
           />
         </ErrorBoundary>
       </main>
+
+      <PokemonModal 
+        pokemon={selectedPokemon} 
+        onClose={() => setSelectedPokemon(null)} 
+      />
     </div>
   );
 }

@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/poke-idleworld/:match*",
+      "destination": "https://poke.idleworld.online/:match*"
+    }
+  ]
+}

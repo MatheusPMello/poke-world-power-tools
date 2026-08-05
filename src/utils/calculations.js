@@ -1,16 +1,4 @@
-export const CLANS = {
-  Nenhum: [],
-  Volcanic: ['FIRE'],
-  Seavell: ['WATER', 'ICE'],
-  Naturia: ['GRASS', 'BUG'],
-  Raibolt: ['ELECTRIC'],
-  Malefic: ['GHOST', 'POISON', 'DARK'],
-  Wingeon: ['FLYING', 'DRAGON'],
-  Psycraft: ['PSYCHIC', 'FAIRY'],
-  Gardestrike: ['FIGHTING', 'NORMAL'],
-  Orebound: ['GROUND', 'ROCK'],
-  Ironhard: ['STEEL']
-};
+import { CLANS } from './constants';
 
 export function calculateDamageScore(pokemon, include600 = true, considerCooldown = false, considerSpeed = false, selectedClan = 'Nenhum') {
   if (!pokemon.attacks || pokemon.attacks.length === 0) return 0;

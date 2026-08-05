@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import PokemonCard from './PokemonCard';
 
-export default function PokemonList({ pokemons, rankingMode, team, setTeam }) {
+export default function PokemonList({ pokemons, rankingMode, team, toggleTeam, onPokemonClick }) {
   const tiers = ['S', 'A', 'B', 'C', 'D'];
   
   // Group pokemons by tier in a single O(N) pass, memoized
@@ -35,7 +35,8 @@ export default function PokemonList({ pokemons, rankingMode, team, setTeam }) {
                   pokemon={pokemon} 
                   rankingMode={rankingMode} 
                   team={team} 
-                  setTeam={setTeam} 
+                  toggleTeam={toggleTeam} 
+                  onPokemonClick={onPokemonClick}
                 />
               ))}
             </div>

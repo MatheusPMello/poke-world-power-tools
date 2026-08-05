@@ -429,6 +429,10 @@ input:focus-visible + .toggle-slider {
   border-color: rgba(255, 255, 255, 0.2);
 }
 
+.pokemon-card.clickable {
+  cursor: pointer;
+}
+
 .pokemon-card::before {
   content: '';
   position: absolute;
