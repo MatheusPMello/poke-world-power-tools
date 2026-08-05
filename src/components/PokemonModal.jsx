@@ -76,9 +76,16 @@ export default function PokemonModal({ pokemon, onClose }) {
                   <div key={index} className="ability-card">
                     <div className="ability-header">
                       <span className="ability-name">{attack.name}</span>
-                      <span className="type-badge small" style={{ backgroundColor: `var(--type-${attack.type?.toLowerCase()})` }}>
-                        {attack.type}
-                      </span>
+                      <div style={{ display: 'flex', gap: '6px' }}>
+                        <span className="type-badge small" style={{ backgroundColor: `var(--type-${attack.type?.toLowerCase()})` }}>
+                          {attack.type}
+                        </span>
+                        {attack.category && (
+                          <span className="type-badge small" style={{ backgroundColor: attack.category === 'PHYSICAL' ? '#f97316' : attack.category === 'SPECIAL' ? '#3b82f6' : '#64748b' }}>
+                            {attack.category === 'PHYSICAL' ? 'FÍSICO' : attack.category === 'SPECIAL' ? 'ESPECIAL' : attack.category}
+                          </span>
+                        )}
+                      </div>
                     </div>
                     <div className="ability-details">
                       <div className="ability-detail-item">
