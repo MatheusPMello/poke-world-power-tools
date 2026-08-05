@@ -7,10 +7,29 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependencies
+node_modules/
+
+# Production
+dist/
+dist-ssr/
+build/
+
+# Testing
+coverage/
+
+# Environment
+.env
+.env.*
+!.env.example
 *.local
+
+# Vercel (Deployment)
+.vercel/
+
+# Media / Ignored files
+*.mp4
+*.mov
 
 # Editor directories and files
 .vscode/*

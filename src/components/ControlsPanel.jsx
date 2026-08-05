@@ -68,7 +68,7 @@ export default function ControlsPanel({ filters, types, onAutoBuild }) {
           <button 
             className="filter-btn active" 
             onClick={onAutoBuild}
-            style={{ padding: '0.6rem 1.5rem', background: '#3b82f6', border: '1px solid #60a5fa', fontWeight: 'bold' }}
+            style={{ padding: '0.6rem 1.5rem', background: '#a78bfa', border: '1px solid #c4b5fd', fontWeight: 'bold' }}
           >
             ✨ Auto-Montar Time
           </button>
