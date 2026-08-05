@@ -89,6 +89,7 @@ function App() {
             clearTeam={clearTeam} 
             toggleTeam={toggleTeam} 
             rankingMode={rankingMode} 
+            onPokemonClick={setSelectedPokemon}
           />
           <PokemonList 
             pokemons={filteredPokemons} 

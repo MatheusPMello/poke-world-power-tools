@@ -1,7 +1,7 @@
 import React from 'react';
 import PokemonCard from './PokemonCard';
 
-export default function TeamPanel({ team, clearTeam, toggleTeam, rankingMode }) {
+export default function TeamPanel({ team, clearTeam, toggleTeam, rankingMode, onPokemonClick }) {
   if (!team || team.length === 0) return null;
 
   const totalPower = team.reduce((sum, p) => sum + (p.activeScore || p.dps || 0), 0);
@@ -32,6 +32,7 @@ export default function TeamPanel({ team, clearTeam, toggleTeam, rankingMode }) 
             isInTeam={true}
             toggleTeam={toggleTeam} 
             inTeamPanel={true} 
+            onPokemonClick={onPokemonClick}
           />
         ))}
       </div>
