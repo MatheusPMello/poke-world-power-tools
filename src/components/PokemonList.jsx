@@ -4,6 +4,8 @@ import PokemonCard from './PokemonCard';
 export default function PokemonList({ pokemons, rankingMode, team, toggleTeam, onPokemonClick }) {
   const tiers = ['S', 'A', 'B', 'C', 'D'];
   
+  const teamIds = useMemo(() => new Set(team.map(p => p.pokeId)), [team]);
+
   // Group pokemons by tier in a single O(N) pass, memoized
   const grouped = useMemo(() => {
     const acc = { S: [], A: [], B: [], C: [], D: [] };
@@ -34,7 +36,7 @@ export default function PokemonList({ pokemons, rankingMode, team, toggleTeam, o
                   key={pokemon.pokeId} 
                   pokemon={pokemon} 
                   rankingMode={rankingMode} 
-                  team={team} 
+                  isInTeam={teamIds.has(pokemon.pokeId)} 
                   toggleTeam={toggleTeam} 
                   onPokemonClick={onPokemonClick}
                 />

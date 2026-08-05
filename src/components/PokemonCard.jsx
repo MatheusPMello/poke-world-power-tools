@@ -3,8 +3,7 @@ import { Sword, Shield, Zap, Activity, Minus, Plus } from 'lucide-react';
 import PokemonImage from './PokemonImage';
 import TypeBadges from './TypeBadges';
 
-export default function PokemonCard({ pokemon, rankingMode, team = [], toggleTeam, inTeamPanel = false, onPokemonClick }) {
-  const isInTeam = team.some(p => p.pokeId === pokemon.pokeId);
+export default function PokemonCard({ pokemon, rankingMode, isInTeam = false, toggleTeam, inTeamPanel = false, onPokemonClick }) {
 
   const handleToggle = (e) => {
     if (e) e.stopPropagation();

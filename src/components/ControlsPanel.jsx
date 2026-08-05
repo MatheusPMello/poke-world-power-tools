@@ -38,10 +38,9 @@ export default function ControlsPanel({ filters, types, onAutoBuild }) {
         <div className="button-group">
           <div className="filter-dropdown-container">
             <select
-              className="filter-select"
+              className="filter-select select-padded"
               value={selectedClan}
               onChange={(e) => setSelectedClan(e.target.value)}
-              style={{ padding: '0.6rem 2.5rem 0.6rem 1rem' }}
             >
               {Object.keys(CLANS).map(clan => (
                 <option key={clan} value={clan}>{clan}</option>
@@ -66,9 +65,8 @@ export default function ControlsPanel({ filters, types, onAutoBuild }) {
         <span className="control-label">&nbsp;</span>
         <div className="button-group">
           <button
-            className="filter-btn active"
+            className="filter-btn active btn-autobuild"
             onClick={onAutoBuild}
-            style={{ padding: '0.6rem 1.5rem', background: '#a78bfa', border: '1px solid #c4b5fd', fontWeight: 'bold' }}
           >
             ✨ Montar Time
           </button>

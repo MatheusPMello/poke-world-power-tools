@@ -39,30 +39,19 @@ export default function PokemonModal({ pokemon, onClose }) {
           <div className="modal-stats-section">
             <h3>Status Base</h3>
             <div className="stats-grid-6">
-              <div className="stat-item-premium">
-                <span className="stat-label"><Heart size={16} color="#ef4444" /> HP</span>
-                <span className="stat-value">{pokemon.baseHp}</span>
-              </div>
-              <div className="stat-item-premium">
-                <span className="stat-label"><Sword size={16} color="#f97316" /> Atk</span>
-                <span className="stat-value">{pokemon.baseAtk}</span>
-              </div>
-              <div className="stat-item-premium">
-                <span className="stat-label"><Shield size={16} color="#eab308" /> Def</span>
-                <span className="stat-value">{pokemon.baseDef}</span>
-              </div>
-              <div className="stat-item-premium">
-                <span className="stat-label"><Zap size={16} color="#3b82f6" /> Sp.A</span>
-                <span className="stat-value">{pokemon.baseSpAtk}</span>
-              </div>
-              <div className="stat-item-premium">
-                <span className="stat-label"><Activity size={16} color="#8b5cf6" /> Sp.D</span>
-                <span className="stat-value">{pokemon.baseSpDef}</span>
-              </div>
-              <div className="stat-item-premium">
-                <span className="stat-label"><Wind size={16} color="#10b981" /> Spd</span>
-                <span className="stat-value">{pokemon.baseSpeed}</span>
-              </div>
+              {[
+                { label: 'HP', icon: Heart, color: '#ef4444', value: pokemon.baseHp },
+                { label: 'Atk', icon: Sword, color: '#f97316', value: pokemon.baseAtk },
+                { label: 'Def', icon: Shield, color: '#eab308', value: pokemon.baseDef },
+                { label: 'Sp.A', icon: Zap, color: '#3b82f6', value: pokemon.baseSpAtk },
+                { label: 'Sp.D', icon: Activity, color: '#8b5cf6', value: pokemon.baseSpDef },
+                { label: 'Spd', icon: Wind, color: '#10b981', value: pokemon.baseSpeed }
+              ].map(stat => (
+                <div key={stat.label} className="stat-item-premium">
+                  <span className="stat-label"><stat.icon size={16} color={stat.color} /> {stat.label}</span>
+                  <span className="stat-value">{stat.value}</span>
+                </div>
+              ))}
             </div>
           </div>
 

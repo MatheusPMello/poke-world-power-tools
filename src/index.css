@@ -636,3 +636,44 @@ input:focus-visible + .toggle-slider {
 .team-toggle-btn:hover {
   transform: scale(1.1);
 }
+
+/* Utils */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: var(--text-primary);
+}
+
+.loading-text {
+  text-align: center;
+}
+
+.loading-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.loading-text p {
+  color: var(--text-secondary);
+}
+
+.error-banner {
+  background-color: #ef4444;
+  color: white;
+  padding: 0.75rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn-autobuild {
+  padding: 0.6rem 1.5rem;
+  background: #a78bfa;
+  border: 1px solid #c4b5fd;
+  font-weight: bold;
+}
+
+.select-padded {
+  padding: 0.6rem 2.5rem 0.6rem 1rem;
+}

@@ -176,10 +176,12 @@ export function autoBuildTeam(sortedPokemons, allowOverlap = false) {
   // Fallback: If we couldn't find 6 completely unique typed pokemons (rare, but possible with heavy filters)
   // Fill the remaining slots with the absolute highest ranked pokemons available.
   if (team.length < 6) {
+    const teamIds = new Set(team.map(t => t.pokeId));
     for (const p of sortedPokemons) {
       if (team.length >= 6) break;
-      if (!team.some(existing => existing.pokeId === p.pokeId)) {
+      if (!teamIds.has(p.pokeId)) {
          team.push(p);
+         teamIds.add(p.pokeId);
       }
     }
   }

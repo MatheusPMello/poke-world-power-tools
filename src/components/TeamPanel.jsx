@@ -29,7 +29,7 @@ export default function TeamPanel({ team, clearTeam, toggleTeam, rankingMode }) 
             key={pokemon.pokeId} 
             pokemon={pokemon} 
             rankingMode={rankingMode}
-            team={team} 
+            isInTeam={true}
             toggleTeam={toggleTeam} 
             inTeamPanel={true} 
           />

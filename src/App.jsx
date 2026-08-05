@@ -54,10 +54,10 @@ function App() {
 
   if (loading) {
     return (
-      <div className="app-container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', color: '#f8fafc' }}>
-        <div style={{ textAlign: 'center' }}>
-          <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Carregando dados...</h2>
-          <p style={{ color: '#94a3b8' }}>Buscando as informações mais recentes.</p>
+      <div className="app-container loading-container">
+        <div className="loading-text">
+          <h2>Carregando dados...</h2>
+          <p>Buscando as informações mais recentes.</p>
         </div>
       </div>
     );
@@ -66,7 +66,7 @@ function App() {
   return (
     <div className="app-container">
       {error && (
-        <div style={{ backgroundColor: '#ef4444', color: 'white', padding: '0.75rem', textAlign: 'center', fontWeight: 'bold' }}>
+        <div className="error-banner">
           {error}
         </div>
       )}
