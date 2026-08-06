@@ -3,6 +3,7 @@ import { useCreaturesData } from './hooks/useCreaturesData';
 import { processPokemons, getTieredPokemons, getAllTypes } from './utils/calculations';
 import { useTeam } from './hooks/useTeam';
 import { useFilters } from './hooks/useFilters';
+import { CLANS } from './utils/constants';
 import ControlsPanel from './components/ControlsPanel';
 import PokemonList from './components/PokemonList';
 import TeamPanel from './components/TeamPanel';
@@ -19,7 +20,8 @@ function App() {
     considerCooldown,
     considerSpeed,
     allowTypeOverlap,
-    selectedClan
+    selectedClan,
+    restrictToClanElements
   } = filters;
 
   const [selectedPokemon, setSelectedPokemon] = useState(null);
@@ -48,8 +50,19 @@ function App() {
   }, [pokemons, activeFilter]);
 
   const handleAutoBuild = () => {
+    let finalPokemons = filteredPokemons;
+    
+    if (restrictToClanElements && selectedClan !== 'Nenhum') {
+      const clanElements = CLANS[selectedClan] || [];
+      finalPokemons = finalPokemons.filter(p => {
+        const type1 = p.type1?.toUpperCase();
+        const type2 = p.type2?.toUpperCase();
+        return clanElements.includes(type1) || clanElements.includes(type2);
+      });
+    }
+
     // Pass the currently filtered and sorted pokemons to ensure it respects the active Clan & Ranking mode
-    autoBuild(filteredPokemons, allowTypeOverlap);
+    autoBuild(finalPokemons, allowTypeOverlap);
   };
 
   if (loading) {

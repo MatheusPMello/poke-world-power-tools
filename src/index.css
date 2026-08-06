@@ -199,13 +199,14 @@ p.subtitle {
 }
 
 input:checked + .toggle-slider {
-  background-color: #a78bfa; /* Soft Violet accent */
-  border-color: #c4b5fd;
+  background-color: var(--text-primary);
+  border-color: var(--text-primary);
+  box-shadow: 0 0 15px rgba(255,255,255,0.3);
 }
 
 input:checked + .toggle-slider:before {
   transform: translateX(20px);
-  background-color: #ffffff;
+  background-color: var(--bg-dark);
 }
 
 input:focus-visible + .toggle-slider {

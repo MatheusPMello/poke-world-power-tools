@@ -10,7 +10,8 @@ export default function ControlsPanel({ filters, types, onAutoBuild }) {
     include600, setInclude600,
     considerCooldown, setConsiderCooldown,
     considerSpeed, setConsiderSpeed,
-    allowTypeOverlap, setAllowTypeOverlap
+    allowTypeOverlap, setAllowTypeOverlap,
+    restrictToClanElements, setRestrictToClanElements
   } = filters;
 
   return (
@@ -117,6 +118,17 @@ export default function ControlsPanel({ filters, types, onAutoBuild }) {
             <span className="toggle-slider"></span>
           </label>
           Permitir Tipos Repetidos
+        </label>
+        <label className="checkbox-label small-label">
+          <label className="toggle-switch">
+            <input
+              type="checkbox"
+              checked={restrictToClanElements}
+              onChange={(e) => setRestrictToClanElements(e.target.checked)}
+            />
+            <span className="toggle-slider"></span>
+          </label>
+          Apenas Clã
         </label>
       </div>
     </div>

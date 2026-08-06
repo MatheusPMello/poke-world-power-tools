@@ -8,6 +8,7 @@ export function useFilters() {
   const [considerSpeed, setConsiderSpeed] = useState(false);
   const [allowTypeOverlap, setAllowTypeOverlap] = useState(false);
   const [selectedClan, setSelectedClan] = useState('Nenhum');
+  const [restrictToClanElements, setRestrictToClanElements] = useState(false);
 
   return {
     activeFilter, setActiveFilter,
@@ -16,6 +17,7 @@ export function useFilters() {
     considerCooldown, setConsiderCooldown,
     considerSpeed, setConsiderSpeed,
     allowTypeOverlap, setAllowTypeOverlap,
-    selectedClan, setSelectedClan
+    selectedClan, setSelectedClan,
+    restrictToClanElements, setRestrictToClanElements
   };
 }
