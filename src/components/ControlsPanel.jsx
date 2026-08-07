@@ -1,8 +1,9 @@
 import React from 'react';
 import FilterBar from './FilterBar';
+import SearchPokemon from './SearchPokemon';
 import { CLANS } from '../utils/constants';
 
-export default function ControlsPanel({ filters, types, onAutoBuild }) {
+export default function ControlsPanel({ filters, types, onAutoBuild, pokemons, onSearchSelect }) {
   const {
     rankingMode, setRankingMode,
     selectedClan, setSelectedClan,
@@ -71,6 +72,13 @@ export default function ControlsPanel({ filters, types, onAutoBuild }) {
           >
             ✨ Montar Time
           </button>
+        </div>
+      </div>
+
+      <div className="control-group">
+        <span className="control-label">Buscar:</span>
+        <div className="button-group">
+          <SearchPokemon pokemons={pokemons} onSelect={onSearchSelect} />
         </div>
       </div>
 

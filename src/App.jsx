@@ -11,7 +11,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 import PokemonModal from './components/PokemonModal';
 import './index.css';
 
-function App() {
+export default function App() {
   const filters = useFilters();
   const {
     activeFilter,
@@ -65,6 +65,22 @@ function App() {
     autoBuild(finalPokemons, allowTypeOverlap);
   };
 
+  const handleSearchSelect = (pokeId) => {
+    // Scroll to the card
+    setTimeout(() => {
+      const card = document.getElementById(`pokemon-card-${pokeId}`);
+      if (card) {
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        
+        // Add a temporary highlight class
+        card.classList.add('highlight-card');
+        setTimeout(() => {
+          card.classList.remove('highlight-card');
+        }, 3000);
+      }
+    }, 100);
+  };
+
   if (loading) {
     return (
       <div className="app-container loading-container">
@@ -91,7 +107,9 @@ function App() {
         <ControlsPanel 
           filters={filters} 
           types={types} 
-          onAutoBuild={handleAutoBuild} 
+          onAutoBuild={handleAutoBuild}
+          pokemons={filteredPokemons}
+          onSearchSelect={handleSearchSelect}
         />
       </header>
       
@@ -121,5 +139,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

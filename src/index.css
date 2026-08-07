@@ -678,3 +678,95 @@ input:focus-visible + .toggle-slider {
 .select-padded {
   padding: 0.6rem 2.5rem 0.6rem 1rem;
 }
+
+/* Search Pokemon */
+.search-pokemon-container {
+  position: relative;
+  width: 100%;
+  min-width: 250px;
+}
+
+.search-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  color: var(--text-secondary);
+}
+
+.search-dropdown {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+  border-radius: 12px;
+  list-style: none;
+  z-index: 1000;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.search-dropdown::-webkit-scrollbar {
+  width: 6px;
+}
+.search-dropdown::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+.search-dropdown::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+}
+
+.search-dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.2s;
+}
+
+.search-dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.search-dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.search-result-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  margin-right: 0.75rem;
+}
+
+.search-result-name {
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 0.95rem;
+}
+
+.search-dropdown.empty {
+  padding: 1rem;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+/* Highlight Animation */
+@keyframes highlightPulse {
+  0% { box-shadow: 0 0 0 0 rgba(167, 139, 250, 0.7); }
+  50% { box-shadow: 0 0 20px 10px rgba(167, 139, 250, 0.5); transform: scale(1.02); }
+  100% { box-shadow: 0 0 0 0 rgba(167, 139, 250, 0); }
+}
+
+.highlight-card {
+  animation: highlightPulse 1.5s ease-in-out 2;
+  border-color: #a78bfa !important;
+}

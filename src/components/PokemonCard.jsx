@@ -14,6 +14,7 @@ export default function PokemonCard({ pokemon, rankingMode, isInTeam = false, to
 
   return (
     <div 
+      id={`pokemon-card-${pokemon.pokeId}`}
       className={`pokemon-card glass ${onPokemonClick ? 'clickable' : ''}`}
       onClick={() => onPokemonClick && onPokemonClick(pokemon)}
     >

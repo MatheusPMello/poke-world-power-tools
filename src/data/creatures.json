@@ -13441,8 +13441,8 @@
    "baseSpDef": 45,
    "baseSpeed": 40,
    "huntLevel": 80,
-   "evolvesToId": 0,
-   "evolveLevel": 0,
+   "evolvesToId": 464,
+   "evolveLevel": 600,
    "priceNpc": 13000,
    "sellValue": 13000,
    "experience": 3848,
@@ -13710,8 +13710,8 @@
    "baseSpDef": 40,
    "baseSpeed": 60,
    "huntLevel": 50,
-   "evolvesToId": 0,
-   "evolveLevel": 0,
+   "evolvesToId": 465,
+   "evolveLevel": 600,
    "priceNpc": 10000,
    "sellValue": 10000,
    "experience": 1508,
@@ -15188,8 +15188,8 @@
    "baseSpDef": 85,
    "baseSpeed": 105,
    "huntLevel": 100,
-   "evolvesToId": 0,
-   "evolveLevel": 0,
+   "evolvesToId": 466,
+   "evolveLevel": 600,
    "priceNpc": 60000,
    "sellValue": 60000,
    "experience": 6008,
@@ -15323,8 +15323,8 @@
    "baseSpDef": 85,
    "baseSpeed": 93,
    "huntLevel": 100,
-   "evolvesToId": 0,
-   "evolveLevel": 0,
+   "evolvesToId": 467,
+   "evolveLevel": 600,
    "priceNpc": 60000,
    "sellValue": 60000,
    "experience": 6008,
@@ -31193,23 +31193,23 @@
      "name": "Seed",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 15
+     "maxCount": 20
+    },
+    {
+     "name": "Leaf Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
     },
     {
      "name": "Leaves",
-     "chance": 21000,
+     "chance": 32000,
      "minCount": 1,
      "maxCount": 1
     },
     {
      "name": "greens",
-     "chance": 2200,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Leaf Stone",
-     "chance": 1000,
+     "chance": 2000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -31308,6 +31308,12 @@
      "maxCount": 43
     },
     {
+     "name": "Leaf Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Leaves",
      "chance": 49000,
      "minCount": 1,
@@ -31316,12 +31322,6 @@
     {
      "name": "greens",
      "chance": 4250,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Leaf Stone",
-     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -31414,6 +31414,12 @@
    "experience": 248,
    "loot": [
     {
+     "name": "fire feather",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Essence of Fire",
      "chance": 80000,
      "minCount": 1,
@@ -31422,12 +31428,6 @@
     {
      "name": "Pot of Lava",
      "chance": 21000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "fire feather",
-     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -31513,26 +31513,38 @@
    "experience": 968,
    "loot": [
     {
+     "name": "fire feather",
+     "chance": 2000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "band-aid",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 10
+    },
+    {
      "name": "Essence of Fire",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 15
-    },
-    {
-     "name": "Pot of Lava",
-     "chance": 21000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "fire feather",
-     "chance": 2200,
-     "minCount": 1,
-     "maxCount": 1
+     "maxCount": 10
     },
     {
      "name": "Fire Stone",
      "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Punch Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Pot of Lava",
+     "chance": 32000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -31626,7 +31638,13 @@
    "experience": 3848,
    "loot": [
     {
-     "name": "Band Aid",
+     "name": "fire feather",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "band-aid",
      "chance": 80000,
      "minCount": 1,
      "maxCount": 21
@@ -31638,18 +31656,6 @@
      "maxCount": 21
     },
     {
-     "name": "Pot of Lava",
-     "chance": 45500,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "fire feather",
-     "chance": 4250,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
      "name": "Fire Stone",
      "chance": 1000,
      "minCount": 1,
@@ -31658,6 +31664,12 @@
     {
      "name": "Punch Stone",
      "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Pot of Lava",
+     "chance": 45500,
      "minCount": 1,
      "maxCount": 1
     }
@@ -31766,6 +31778,12 @@
    "experience": 248,
    "loot": [
     {
+     "name": "black fins",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Water Gem",
      "chance": 80000,
      "minCount": 1,
@@ -31774,12 +31792,6 @@
     {
      "name": "Water Pendant",
      "chance": 21000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "black fins",
-     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -31865,6 +31877,12 @@
    "experience": 968,
    "loot": [
     {
+     "name": "black fins",
+     "chance": 2000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Earth Ball",
      "chance": 80000,
      "minCount": 1,
@@ -31877,24 +31895,6 @@
      "maxCount": 10
     },
     {
-     "name": "Water Pendant",
-     "chance": 16000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Sandbag",
-     "chance": 16000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "black fins",
-     "chance": 2000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
      "name": "Water Stone",
      "chance": 1000,
      "minCount": 1,
@@ -31903,6 +31903,18 @@
     {
      "name": "Earth Stone",
      "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Water Pendant",
+     "chance": 16000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Sandbag",
+     "chance": 16000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -31988,10 +32000,10 @@
    "experience": 3848,
    "loot": [
     {
-     "name": "Water Gem",
-     "chance": 80000,
+     "name": "black fins",
+     "chance": 4250,
      "minCount": 1,
-     "maxCount": 21
+     "maxCount": 1
     },
     {
      "name": "Earth Ball",
@@ -32000,22 +32012,10 @@
      "maxCount": 21
     },
     {
-     "name": "Water Pendant",
-     "chance": 30000,
+     "name": "Water Gem",
+     "chance": 80000,
      "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Sandbag",
-     "chance": 30000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "black fins",
-     "chance": 4250,
-     "minCount": 1,
-     "maxCount": 1
+     "maxCount": 21
     },
     {
      "name": "Water Stone",
@@ -32026,6 +32026,18 @@
     {
      "name": "Earth Stone",
      "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Water Pendant",
+     "chance": 22750,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Sandbag",
+     "chance": 22750,
      "minCount": 1,
      "maxCount": 1
     }
@@ -32134,28 +32146,16 @@
    "experience": 548,
    "loot": [
     {
+     "name": "hyena tail",
+     "chance": 1500,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Dark Gem",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 21
-    },
-    {
-     "name": "Ruby",
-     "chance": 30000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Big Crystal",
-     "chance": 4250,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Darkness Stone",
-     "chance": 1000,
-     "minCount": 1,
-     "maxCount": 1
+     "maxCount": 10
     }
    ],
    "attacks": [
@@ -32222,22 +32222,16 @@
    "experience": 6008,
    "loot": [
     {
-     "name": "Dark Gem",
-     "chance": 80000,
-     "minCount": 1,
-     "maxCount": 21
-    },
-    {
-     "name": "Ruby",
-     "chance": 30000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Big Crystal",
+     "name": "hyena tail",
      "chance": 4250,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Dark Gem",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 43
     },
     {
      "name": "Darkness Stone",
@@ -32343,20 +32337,32 @@
    "experience": 248,
    "loot": [
     {
-     "name": "Water Gem",
-     "chance": 80000,
-     "minCount": 1,
-     "maxCount": 10
-    },
-    {
-     "name": "Water Pendant",
-     "chance": 21000,
+     "name": "water plant",
+     "chance": 1100,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "lobster claw",
-     "chance": 1000,
+     "name": "Seed",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Water Gem",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Leaves",
+     "chance": 13000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Water Pendant",
+     "chance": 13000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -32426,19 +32432,43 @@
    "experience": 1508,
    "loot": [
     {
+     "name": "water plant",
+     "chance": 2200,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Seed",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 10
+    },
+    {
      "name": "Water Gem",
      "chance": 80000,
      "minCount": 1,
      "maxCount": 10
     },
     {
-     "name": "Water Pendant",
-     "chance": 21000,
+     "name": "Leaves",
+     "chance": 16000,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "lobster claw",
+     "name": "Water Pendant",
+     "chance": 16000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Leaf Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Water Stone",
      "chance": 1000,
      "minCount": 1,
      "maxCount": 1
@@ -32525,19 +32555,43 @@
    "experience": 6008,
    "loot": [
     {
-     "name": "Water Gem",
-     "chance": 80000,
-     "minCount": 1,
-     "maxCount": 10
-    },
-    {
-     "name": "Water Pendant",
-     "chance": 21000,
+     "name": "water plant",
+     "chance": 4500,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "lobster claw",
+     "name": "Seed",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
+     "name": "Water Gem",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
+     "name": "Leaves",
+     "chance": 22750,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Water Pendant",
+     "chance": 22750,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Leaf Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Water Stone",
      "chance": 1000,
      "minCount": 1,
      "maxCount": 1
@@ -32639,6 +32693,12 @@
    "experience": 68,
    "loot": [
     {
+     "name": "big seed",
+     "chance": 1100,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Seed",
      "chance": 80000,
      "minCount": 1,
@@ -32647,12 +32707,6 @@
     {
      "name": "Leaves",
      "chance": 26000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "big seed",
-     "chance": 1100,
      "minCount": 1,
      "maxCount": 1
     }
@@ -32722,6 +32776,12 @@
    "experience": 548,
    "loot": [
     {
+     "name": "big seed",
+     "chance": 2200,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Seed",
      "chance": 80000,
      "minCount": 1,
@@ -32736,12 +32796,6 @@
     {
      "name": "Leaves",
      "chance": 32000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "big seed",
-     "chance": 2200,
      "minCount": 1,
      "maxCount": 1
     },
@@ -32831,6 +32885,12 @@
    "experience": 3848,
    "loot": [
     {
+     "name": "Sharp Leaves",
+     "chance": 4500,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Seed",
      "chance": 80000,
      "minCount": 1,
@@ -32843,18 +32903,6 @@
      "maxCount": 21
     },
     {
-     "name": "Leaves",
-     "chance": 30000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Sharp Leaves",
-     "chance": 4250,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
      "name": "Leaf Stone",
      "chance": 1000,
      "minCount": 1,
@@ -32863,6 +32911,12 @@
     {
      "name": "Darkness Stone",
      "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Leaves",
+     "chance": 45500,
      "minCount": 1,
      "maxCount": 1
     }
@@ -32956,26 +33010,32 @@
    "experience": 548,
    "loot": [
     {
+     "name": "crimson feather",
+     "chance": 1100,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Straw",
      "chance": 80000,
      "minCount": 1,
      "maxCount": 5
     },
     {
-     "name": "Water Gem",
+     "name": "Rubber Ball",
      "chance": 80000,
      "minCount": 1,
      "maxCount": 5
     },
     {
-     "name": "Water Pendant",
-     "chance": 21000,
+     "name": "Feather",
+     "chance": 13000,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "pelican wing",
-     "chance": 1000,
+     "name": "Bird Beak",
+     "chance": 6000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -33053,25 +33113,43 @@
    "experience": 3848,
    "loot": [
     {
-     "name": "Straw",
-     "chance": 80000,
-     "minCount": 1,
-     "maxCount": 5
-    },
-    {
-     "name": "Water Gem",
-     "chance": 80000,
-     "minCount": 1,
-     "maxCount": 5
-    },
-    {
-     "name": "Water Pendant",
-     "chance": 21000,
+     "name": "crimson feather",
+     "chance": 4500,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "pelican wing",
+     "name": "Straw",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 19
+    },
+    {
+     "name": "Rubber Ball",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 19
+    },
+    {
+     "name": "Feather",
+     "chance": 13000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Bird Beak",
+     "chance": 25500,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Feather Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Heart Stone",
      "chance": 1000,
      "minCount": 1,
      "maxCount": 1
@@ -33174,6 +33252,12 @@
    "experience": 548,
    "loot": [
     {
+     "name": "pelican wing",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Straw",
      "chance": 80000,
      "minCount": 1,
@@ -33188,12 +33272,6 @@
     {
      "name": "Water Pendant",
      "chance": 21000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "pelican wing",
-     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -33271,6 +33349,12 @@
    "experience": 3848,
    "loot": [
     {
+     "name": "pelican wing",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Straw",
      "chance": 80000,
      "minCount": 1,
@@ -33283,20 +33367,20 @@
      "maxCount": 21
     },
     {
-     "name": "Water Pendant",
-     "chance": 30000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "pelican wing",
-     "chance": 4250,
+     "name": "Feather Stone",
+     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     },
     {
      "name": "Water Stone",
      "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Water Pendant",
+     "chance": 45000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -33398,26 +33482,26 @@
    "experience": 548,
    "loot": [
     {
+     "name": "Cure Flower",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Comb",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Enchanted Gem",
      "chance": 80000,
      "minCount": 1,
      "maxCount": 10
     },
     {
-     "name": "Comb",
-     "chance": 16000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
      "name": "Future Orb",
-     "chance": 16000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Cure Flower",
-     "chance": 1100,
+     "chance": 20000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -33495,31 +33579,31 @@
    "experience": 2168,
    "loot": [
     {
-     "name": "Enchanted Gem",
-     "chance": 80000,
+     "name": "Cure Flower",
+     "chance": 4000,
      "minCount": 1,
-     "maxCount": 15
+     "maxCount": 1
     },
     {
      "name": "Comb",
-     "chance": 21000,
+     "chance": 3500,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Enchanted Gem",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 43
     },
     {
      "name": "Future Orb",
-     "chance": 21000,
+     "chance": 30000,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "Cure Flower",
-     "chance": 2200,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Heart Stone",
+     "name": "Enigma Stone",
      "chance": 1000,
      "minCount": 1,
      "maxCount": 1
@@ -33606,26 +33690,26 @@
    "experience": 6008,
    "loot": [
     {
-     "name": "Enchanted Gem",
-     "chance": 80000,
+     "name": "Cure Flower",
+     "chance": 4250,
      "minCount": 1,
-     "maxCount": 21
+     "maxCount": 1
     },
     {
      "name": "Comb",
-     "chance": 30000,
+     "chance": 2500,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Enchanted Gem",
+     "chance": 100000,
+     "minCount": 1,
+     "maxCount": 43
     },
     {
      "name": "Future Orb",
-     "chance": 30000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Cure Flower",
-     "chance": 4250,
+     "chance": 40000,
      "minCount": 1,
      "maxCount": 1
     },
@@ -33636,7 +33720,7 @@
      "maxCount": 1
     },
     {
-     "name": "Heart Stone",
+     "name": "Crystal Stone",
      "chance": 1000,
      "minCount": 1,
      "maxCount": 1
@@ -33730,20 +33814,20 @@
    "experience": 968,
    "loot": [
     {
+     "name": "fur ball",
+     "chance": 1300,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Rubber Ball",
      "chance": 80000,
      "minCount": 1,
      "maxCount": 10
     },
     {
-     "name": "Nail",
-     "chance": 20000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "cute ball",
-     "chance": 2000,
+     "name": "Fur",
+     "chance": 26000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -33828,20 +33912,26 @@
    "experience": 2168,
    "loot": [
     {
-     "name": "Rubber Ball",
-     "chance": 80000,
-     "minCount": 1,
-     "maxCount": 10
-    },
-    {
-     "name": "Nail",
-     "chance": 20000,
+     "name": "fur ball",
+     "chance": 5000,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "cute ball",
-     "chance": 2000,
+     "name": "Rubber Ball",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 43
+    },
+    {
+     "name": "Fur",
+     "chance": 45500,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Heart Stone",
+     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -33914,6 +34004,94 @@
    ]
   },
   {
+   "pokeId": 289,
+   "name": "Slaking",
+   "looktype": 1926,
+   "description": "a slaking",
+   "type1": "NORMAL",
+   "rarity": "RARE",
+   "baseHp": 150,
+   "baseAtk": 160,
+   "baseDef": 100,
+   "baseSpAtk": 95,
+   "baseSpDef": 65,
+   "baseSpeed": 100,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 0,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Rubber Ball",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 10
+    },
+    {
+     "name": "Nail",
+     "chance": 20000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "cute ball",
+     "chance": 2000,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Scratch",
+     "power": 72,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 8000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Fury Swipes",
+     "power": 96,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Rock Slide",
+     "power": 96,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 22000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Sucker Punch",
+     "power": 120,
+     "type": "DARK",
+     "category": "PHYSICAL",
+     "cooldownMs": 30000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Giga Impact",
+     "power": 120,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Earthquake",
+     "power": 140,
+     "type": "GROUND",
+     "category": "PHYSICAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
    "pokeId": 293,
    "name": "Whismur",
    "looktype": 1921,
@@ -33934,6 +34112,12 @@
    "experience": 248,
    "loot": [
     {
+     "name": "cute ball",
+     "chance": 2000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Rubber Ball",
      "chance": 80000,
      "minCount": 1,
@@ -33942,12 +34126,6 @@
     {
      "name": "Nail",
      "chance": 20000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "cute ball",
-     "chance": 2000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -34016,22 +34194,16 @@
    "experience": 1508,
    "loot": [
     {
-     "name": "Rubber Ball",
-     "chance": 80000,
-     "minCount": 1,
-     "maxCount": 20
-    },
-    {
-     "name": "Nail",
-     "chance": 35000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
      "name": "cute ball",
      "chance": 4000,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Rubber Ball",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 20
     },
     {
      "name": "eruption ears",
@@ -34042,6 +34214,12 @@
     {
      "name": "Heart Stone",
      "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Nail",
+     "chance": 35000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -34118,32 +34296,32 @@
    "experience": 6008,
    "loot": [
     {
+     "name": "cute ball",
+     "chance": 8500,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Rubber Ball",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 21
-    },
-    {
-     "name": "Nail",
-     "chance": 30000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "cute ball",
-     "chance": 30000,
-     "minCount": 1,
-     "maxCount": 1
+     "maxCount": 43
     },
     {
      "name": "eruption ears",
-     "chance": 4250,
+     "chance": 4500,
      "minCount": 1,
      "maxCount": 1
     },
     {
      "name": "Heart Stone",
      "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Nail",
+     "chance": 50000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -34236,16 +34414,16 @@
    "experience": 968,
    "loot": [
     {
-     "name": "Band Aid",
-     "chance": 80000,
-     "minCount": 1,
-     "maxCount": 10
-    },
-    {
      "name": "samurai hair",
      "chance": 1300,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "band-aid",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 10
     }
    ],
    "attacks": [
@@ -34329,22 +34507,22 @@
    "experience": 2168,
    "loot": [
     {
-     "name": "Dark Gem",
-     "chance": 80000,
+     "name": "Big Crystal",
+     "chance": 1700,
      "minCount": 1,
-     "maxCount": 21
+     "maxCount": 1
     },
     {
      "name": "Ruby",
-     "chance": 30000,
+     "chance": 3650,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "Big Crystal",
-     "chance": 4250,
+     "name": "Ghost Essence",
+     "chance": 80000,
      "minCount": 1,
-     "maxCount": 1
+     "maxCount": 39
     },
     {
      "name": "Darkness Stone",
@@ -34451,16 +34629,16 @@
    "experience": 3848,
    "loot": [
     {
+     "name": "Metal Jaw",
+     "chance": 5700,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Piece of Steel",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 21
-    },
-    {
-     "name": "Metal Jaw",
-     "chance": 4250,
-     "minCount": 1,
-     "maxCount": 1
+     "maxCount": 11
     },
     {
      "name": "Metal Stone",
@@ -34566,26 +34744,26 @@
    "experience": 548,
    "loot": [
     {
+     "name": "Metal Hull",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Piece of Steel",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 15
+     "maxCount": 5
+    },
+    {
+     "name": "Small Stone",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 5
     },
     {
      "name": "Stone Orb",
-     "chance": 21000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Metal Hull",
-     "chance": 2200,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Metal Stone",
-     "chance": 1000,
+     "chance": 20000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -34663,26 +34841,32 @@
    "experience": 2168,
    "loot": [
     {
+     "name": "Metal Hull",
+     "chance": 4100,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Piece of Steel",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 15
+     "maxCount": 18
+    },
+    {
+     "name": "Small Stone",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 18
+    },
+    {
+     "name": "Rock Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
     },
     {
      "name": "Stone Orb",
-     "chance": 21000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Metal Hull",
-     "chance": 2200,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Metal Stone",
-     "chance": 1000,
+     "chance": 40000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -34784,20 +34968,26 @@
    "experience": 6008,
    "loot": [
     {
+     "name": "Metal Hull",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 3
+    },
+    {
      "name": "Piece of Steel",
-     "chance": 80000,
+     "chance": 100000,
      "minCount": 1,
      "maxCount": 21
     },
     {
-     "name": "Stone Orb",
-     "chance": 30000,
+     "name": "Small Stone",
+     "chance": 100000,
      "minCount": 1,
-     "maxCount": 1
+     "maxCount": 21
     },
     {
-     "name": "Metal Hull",
-     "chance": 4250,
+     "name": "Rock Stone",
+     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     },
@@ -34808,8 +34998,8 @@
      "maxCount": 1
     },
     {
-     "name": "Rock Stone",
-     "chance": 1000,
+     "name": "Stone Orb",
+     "chance": 50000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -34911,7 +35101,13 @@
    "experience": 548,
    "loot": [
     {
-     "name": "Band Aid",
+     "name": "mediling",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "band-aid",
      "chance": 80000,
      "minCount": 1,
      "maxCount": 5
@@ -34925,12 +35121,6 @@
     {
      "name": "Future Orb",
      "chance": 20000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "mediling",
-     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -35008,7 +35198,13 @@
    "experience": 3848,
    "loot": [
     {
-     "name": "Band Aid",
+     "name": "mediling",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "band-aid",
      "chance": 80000,
      "minCount": 1,
      "maxCount": 21
@@ -35022,12 +35218,6 @@
     {
      "name": "Future Orb",
      "chance": 30000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "mediling",
-     "chance": 4250,
      "minCount": 1,
      "maxCount": 1
     },
@@ -35132,6 +35322,12 @@
    "experience": 548,
    "loot": [
     {
+     "name": "shock topknot",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Screw",
      "chance": 80000,
      "minCount": 1,
@@ -35140,12 +35336,6 @@
     {
      "name": "Electric Box",
      "chance": 20000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "shock topknot",
-     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -35230,6 +35420,12 @@
    "experience": 3848,
    "loot": [
     {
+     "name": "shock topknot",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Screw",
      "chance": 80000,
      "minCount": 1,
@@ -35238,12 +35434,6 @@
     {
      "name": "Electric Box",
      "chance": 40000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "shock topknot",
-     "chance": 4250,
      "minCount": 1,
      "maxCount": 1
     },
@@ -35343,6 +35533,12 @@
    "experience": 548,
    "loot": [
     {
+     "name": "nu ball",
+     "chance": 1100,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Essence of Fire",
      "chance": 80000,
      "minCount": 1,
@@ -35363,12 +35559,6 @@
     {
      "name": "Sandbag",
      "chance": 13000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "nu ball",
-     "chance": 1100,
      "minCount": 1,
      "maxCount": 1
     }
@@ -35446,6 +35636,12 @@
    "experience": 3848,
    "loot": [
     {
+     "name": "nu ball",
+     "chance": 4500,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Essence of Fire",
      "chance": 80000,
      "minCount": 1,
@@ -35466,12 +35662,6 @@
     {
      "name": "Sandbag",
      "chance": 22000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "nu ball",
-     "chance": 4500,
      "minCount": 1,
      "maxCount": 1
     },
@@ -35710,6 +35900,12 @@
    "experience": 248,
    "loot": [
     {
+     "name": "springs",
+     "chance": 1300,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Enchanted Gem",
      "chance": 80000,
      "minCount": 1,
@@ -35718,12 +35914,6 @@
     {
      "name": "Future Orb",
      "chance": 20000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "springs",
-     "chance": 1300,
      "minCount": 1,
      "maxCount": 1
     }
@@ -35800,6 +35990,12 @@
    "experience": 3848,
    "loot": [
     {
+     "name": "springs",
+     "chance": 5000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Enchanted Gem",
      "chance": 80000,
      "minCount": 1,
@@ -35808,12 +36004,6 @@
     {
      "name": "Future Orb",
      "chance": 30000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "springs",
-     "chance": 5000,
      "minCount": 1,
      "maxCount": 1
     },
@@ -35920,26 +36110,20 @@
    "experience": 248,
    "loot": [
     {
+     "name": "strange ball",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Earth Ball",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 15
+     "maxCount": 10
     },
     {
      "name": "Sandbag",
-     "chance": 21000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Sand Tail",
-     "chance": 2200,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Earth Stone",
-     "chance": 1000,
+     "chance": 20000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -36017,20 +36201,26 @@
    "experience": 1508,
    "loot": [
     {
-     "name": "Earth Ball",
-     "chance": 80000,
-     "minCount": 1,
-     "maxCount": 15
-    },
-    {
-     "name": "Sandbag",
-     "chance": 21000,
+     "name": "Sand Tail",
+     "chance": 2000,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "Sand Tail",
-     "chance": 2200,
+     "name": "Dragon Scale",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 10
+    },
+    {
+     "name": "Earth Ball",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 10
+    },
+    {
+     "name": "Sandbag",
+     "chance": 30000,
      "minCount": 1,
      "maxCount": 1
     },
@@ -36106,6 +36296,18 @@
    "experience": 6008,
    "loot": [
     {
+     "name": "Sand Tail",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Dragon Scale",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
      "name": "Earth Ball",
      "chance": 80000,
      "minCount": 1,
@@ -36113,18 +36315,18 @@
     },
     {
      "name": "Sandbag",
-     "chance": 30000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Sand Tail",
-     "chance": 4250,
+     "chance": 50000,
      "minCount": 1,
      "maxCount": 1
     },
     {
      "name": "Earth Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Crystal Stone",
      "chance": 1000,
      "minCount": 1,
      "maxCount": 1
@@ -36244,6 +36446,12 @@
    "experience": 6008,
    "loot": [
     {
+     "name": "Cactus Head",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Seed",
      "chance": 80000,
      "minCount": 1,
@@ -36257,13 +36465,7 @@
     },
     {
      "name": "Small Crown",
-     "chance": 30000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Cactus Head",
-     "chance": 4250,
+     "chance": 25000,
      "minCount": 1,
      "maxCount": 1
     },
@@ -36385,26 +36587,26 @@
    "experience": 968,
    "loot": [
     {
+     "name": "cloud",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Rubber Ball",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
      "name": "Straw",
      "chance": 80000,
      "minCount": 1,
      "maxCount": 5
     },
     {
-     "name": "Water Gem",
-     "chance": 80000,
-     "minCount": 1,
-     "maxCount": 5
-    },
-    {
-     "name": "Water Pendant",
-     "chance": 21000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "pelican wing",
-     "chance": 1000,
+     "name": "Feather",
+     "chance": 13000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -36498,14 +36700,38 @@
    "experience": 3848,
    "loot": [
     {
+     "name": "cloud",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Dragon Scale",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 15
+     "maxCount": 21
     },
     {
-     "name": "Mini Wings",
-     "chance": 2200,
+     "name": "Straw",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
+     "name": "Feather",
+     "chance": 25500,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Feather Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Crystal Stone",
+     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -36606,20 +36832,38 @@
    "experience": 6008,
    "loot": [
     {
-     "name": "Rubber Ball",
-     "chance": 80000,
-     "minCount": 1,
-     "maxCount": 10
-    },
-    {
-     "name": "Nail",
-     "chance": 20000,
+     "name": "tribe mark",
+     "chance": 4250,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "cute ball",
-     "chance": 2000,
+     "name": "Wool Ball",
+     "chance": 22000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Rubber Ball",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 43
+    },
+    {
+     "name": "Bottles of Poison",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 65
+    },
+    {
+     "name": "Heart Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "cat ear",
+     "chance": 3150,
      "minCount": 1,
      "maxCount": 1
     }
@@ -36728,26 +36972,26 @@
    "experience": 6008,
    "loot": [
     {
-     "name": "Bottles of Poison",
-     "chance": 80000,
-     "minCount": 1,
-     "maxCount": 21
-    },
-    {
-     "name": "Tooth",
-     "chance": 30000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
      "name": "Poisonous Tail",
      "chance": 4250,
      "minCount": 1,
      "maxCount": 1
     },
     {
+     "name": "Bottles of Poison",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 43
+    },
+    {
      "name": "Venom Stone",
      "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Tooth",
+     "chance": 60000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -36840,6 +37084,12 @@
    "experience": 548,
    "loot": [
     {
+     "name": "lobster claw",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Water Gem",
      "chance": 80000,
      "minCount": 1,
@@ -36848,12 +37098,6 @@
     {
      "name": "Water Pendant",
      "chance": 21000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "lobster claw",
-     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -36939,6 +37183,12 @@
    "experience": 3848,
    "loot": [
     {
+     "name": "lobster claw",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Dark Gem",
      "chance": 80000,
      "minCount": 1,
@@ -36951,18 +37201,6 @@
      "maxCount": 21
     },
     {
-     "name": "Water Pendant",
-     "chance": 45000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "lobster claw",
-     "chance": 4250,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
      "name": "Darkness Stone",
      "chance": 1000,
      "minCount": 1,
@@ -36971,6 +37209,12 @@
     {
      "name": "Water Stone",
      "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Water Pendant",
+     "chance": 45000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -37064,44 +37308,32 @@
    "experience": 548,
    "loot": [
     {
+     "name": "pawn",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Earth Ball",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 21
+     "maxCount": 5
     },
     {
      "name": "Enchanted Gem",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 21
+     "maxCount": 5
     },
     {
      "name": "Future Orb",
-     "chance": 22500,
+     "chance": 13000,
      "minCount": 1,
      "maxCount": 1
     },
     {
      "name": "Sandbag",
-     "chance": 22500,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "pawn",
-     "chance": 4250,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Enigma Stone",
-     "chance": 1000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Earth Stone",
-     "chance": 1000,
+     "chance": 13000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -37179,6 +37411,12 @@
    "experience": 3848,
    "loot": [
     {
+     "name": "pawn",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Earth Ball",
      "chance": 80000,
      "minCount": 1,
@@ -37199,12 +37437,6 @@
     {
      "name": "Sandbag",
      "chance": 22500,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "pawn",
-     "chance": 4250,
      "minCount": 1,
      "maxCount": 1
     },
@@ -37305,6 +37537,144 @@
    ]
   },
   {
+   "pokeId": 349,
+   "name": "Feebas",
+   "looktype": 1911,
+   "description": "a feebas",
+   "type1": "WATER",
+   "rarity": "RARE",
+   "baseHp": 20,
+   "baseAtk": 15,
+   "baseDef": 20,
+   "baseSpAtk": 10,
+   "baseSpDef": 55,
+   "baseSpeed": 80,
+   "huntLevel": 20,
+   "evolvesToId": 350,
+   "evolveLevel": 600,
+   "priceNpc": 500,
+   "sellValue": 500,
+   "experience": 248,
+   "loot": [
+    {
+     "name": "Water Gem",
+     "chance": 75000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Water Pendant",
+     "chance": 4000,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Tackle",
+     "power": 72,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 8000,
+     "learnLevel": 1
+    }
+   ]
+  },
+  {
+   "pokeId": 350,
+   "name": "Milotic",
+   "looktype": 1912,
+   "description": "a milotic",
+   "type1": "WATER",
+   "rarity": "RARE",
+   "baseHp": 95,
+   "baseAtk": 60,
+   "baseDef": 79,
+   "baseSpAtk": 100,
+   "baseSpDef": 125,
+   "baseSpeed": 81,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 0,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Water Gem",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 10
+    },
+    {
+     "name": "Water Pendant",
+     "chance": 16000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Water Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Prism Scale",
+     "chance": 100,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Aqua Tail",
+     "power": 72,
+     "type": "WATER",
+     "category": "PHYSICAL",
+     "cooldownMs": 8000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Water Gun",
+     "power": 96,
+     "type": "WATER",
+     "category": "SPECIAL",
+     "cooldownMs": 18000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Water Pulse",
+     "power": 96,
+     "type": "WATER",
+     "category": "SPECIAL",
+     "cooldownMs": 20000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Twister",
+     "power": 120,
+     "type": "DRAGON",
+     "category": "SPECIAL",
+     "cooldownMs": 35000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Waterfall",
+     "power": 120,
+     "type": "WATER",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Hydro Pump",
+     "power": 140,
+     "type": "WATER",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
    "pokeId": 354,
    "name": "Banette",
    "looktype": 1910,
@@ -37328,11 +37698,17 @@
      "name": "Ghost Essence",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 20
+     "maxCount": 43
     },
     {
-     "name": "ghost skull",
-     "chance": 2000,
+     "name": "doll star",
+     "chance": 5000,
+     "minCount": 1,
+     "maxCount": 2
+    },
+    {
+     "name": "Darkness Stone",
+     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -37502,8 +37878,8 @@
    "baseSpDef": 130,
    "baseSpeed": 25,
    "huntLevel": 100,
-   "evolvesToId": 0,
-   "evolveLevel": 0,
+   "evolvesToId": 477,
+   "evolveLevel": 600,
    "priceNpc": 120000,
    "sellValue": 120000,
    "experience": 6008,
@@ -37512,11 +37888,23 @@
      "name": "Ghost Essence",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 20
+     "maxCount": 43
     },
     {
      "name": "ghost skull",
-     "chance": 2000,
+     "chance": 5000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Darkness Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "creepy eye",
+     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -37618,20 +38006,50 @@
    "experience": 6008,
    "loot": [
     {
-     "name": "Seed",
-     "chance": 80000,
-     "minCount": 1,
-     "maxCount": 10
-    },
-    {
-     "name": "Leaves",
-     "chance": 26000,
+     "name": "palm leaves",
+     "chance": 4250,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "big seed",
-     "chance": 1100,
+     "name": "Straw",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
+     "name": "Seed",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
+     "name": "Feather",
+     "chance": 13000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Bird Beak",
+     "chance": 25500,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Feather Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Leaf Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Ancient Stone",
+     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -37724,25 +38142,25 @@
    "experience": 6008,
    "loot": [
     {
+     "name": "dark moon",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Dark Gem",
-     "chance": 80000,
+     "chance": 100000,
      "minCount": 1,
-     "maxCount": 21
-    },
-    {
-     "name": "Ruby",
-     "chance": 30000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Big Crystal",
-     "chance": 4250,
-     "minCount": 1,
-     "maxCount": 1
+     "maxCount": 43
     },
     {
      "name": "Darkness Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Ancient Stone",
      "chance": 1000,
      "minCount": 1,
      "maxCount": 1
@@ -37852,6 +38270,12 @@
    "experience": 548,
    "loot": [
     {
+     "name": "ice blocks",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Snowball",
      "chance": 80000,
      "minCount": 1,
@@ -37859,13 +38283,7 @@
     },
     {
      "name": "Ice Orb",
-     "chance": 16000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "ice blocks",
-     "chance": 1100,
+     "chance": 10000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -37942,6 +38360,12 @@
    "experience": 3848,
    "loot": [
     {
+     "name": "ice blocks",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Snowball",
      "chance": 80000,
      "minCount": 1,
@@ -37950,12 +38374,6 @@
     {
      "name": "Ice Orb",
      "chance": 25000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "ice blocks",
-     "chance": 4250,
      "minCount": 1,
      "maxCount": 1
     },
@@ -38175,44 +38593,50 @@
    "experience": 2168,
    "loot": [
     {
+     "name": "seal mustache",
+     "chance": 2000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Snowball",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 15
+     "maxCount": 14
     },
     {
      "name": "Water Gem",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 15
+     "maxCount": 14
     },
     {
      "name": "Ice Orb",
-     "chance": 21000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Nail",
-     "chance": 21000,
+     "chance": 1200,
      "minCount": 1,
      "maxCount": 1
     },
     {
      "name": "Water Pendant",
-     "chance": 21000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "seal mustache",
-     "chance": 2200,
+     "chance": 18000,
      "minCount": 1,
      "maxCount": 1
     },
     {
      "name": "Ice Stone",
      "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Water Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Nail",
+     "chance": 35000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -38314,6 +38738,12 @@
    "experience": 6008,
    "loot": [
     {
+     "name": "seal mustache",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Snowball",
      "chance": 100000,
      "minCount": 1,
@@ -38326,26 +38756,14 @@
      "maxCount": 21
     },
     {
-     "name": "Nail",
-     "chance": 50000,
+     "name": "Ice Orb",
+     "chance": 3000,
      "minCount": 1,
      "maxCount": 1
     },
     {
      "name": "Water Pendant",
      "chance": 25500,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "seal mustache",
-     "chance": 4250,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Ice Orb",
-     "chance": 3000,
      "minCount": 1,
      "maxCount": 1
     },
@@ -38358,6 +38776,12 @@
     {
      "name": "Crystal Stone",
      "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Nail",
+     "chance": 50000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -38458,16 +38882,16 @@
    "experience": 968,
    "loot": [
     {
+     "name": "Mini Wings",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Dragon Scale",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 15
-    },
-    {
-     "name": "Mini Wings",
-     "chance": 2200,
-     "minCount": 1,
-     "maxCount": 1
+     "maxCount": 10
     }
    ],
    "attacks": [
@@ -38550,16 +38974,16 @@
    "experience": 2168,
    "loot": [
     {
+     "name": "Mini Wings",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Dragon Scale",
      "chance": 80000,
      "minCount": 1,
-     "maxCount": 21
-    },
-    {
-     "name": "Mini Wings",
-     "chance": 4250,
-     "minCount": 1,
-     "maxCount": 1
+     "maxCount": 20
     },
     {
      "name": "Crystal Stone",
@@ -38653,6 +39077,95 @@
    ]
   },
   {
+   "pokeId": 373,
+   "name": "Salamence",
+   "looktype": 4083,
+   "description": "a salamence",
+   "type1": "DRAGON",
+   "type2": "FLYING",
+   "rarity": "RARE",
+   "baseHp": 95,
+   "baseAtk": 135,
+   "baseDef": 80,
+   "baseSpAtk": 110,
+   "baseSpDef": 80,
+   "baseSpeed": 100,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 0,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Dragon Scale",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
+     "name": "Mini Wings",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Crystal Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Dragon Tail",
+     "power": 72,
+     "type": "DRAGON",
+     "category": "PHYSICAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Flamethrower",
+     "power": 96,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 22000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Scale Shot",
+     "power": 96,
+     "type": "DRAGON",
+     "category": "PHYSICAL",
+     "cooldownMs": 25000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Dragon Breath",
+     "power": 120,
+     "type": "DRAGON",
+     "category": "SPECIAL",
+     "cooldownMs": 30000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Dragon Pulse",
+     "power": 120,
+     "type": "DRAGON",
+     "category": "SPECIAL",
+     "cooldownMs": 35000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Draco Meteor",
+     "power": 140,
+     "type": "DRAGON",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
    "pokeId": 374,
    "name": "Beldum",
    "looktype": 1896,
@@ -38674,16 +39187,16 @@
    "experience": 248,
    "loot": [
     {
+     "name": "Tech Ball",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Piece of Steel",
      "chance": 80000,
      "minCount": 1,
      "maxCount": 10
-    },
-    {
-     "name": "Tech Ball",
-     "chance": 1100,
-     "minCount": 1,
-     "maxCount": 1
     }
    ],
    "attacks": [
@@ -38744,26 +39257,32 @@
    "baseSpDef": 80,
    "baseSpeed": 50,
    "huntLevel": 80,
-   "evolvesToId": 0,
-   "evolveLevel": 0,
+   "evolvesToId": 376,
+   "evolveLevel": 600,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 3848,
    "loot": [
     {
-     "name": "Piece of Steel",
-     "chance": 80000,
-     "minCount": 1,
-     "maxCount": 21
-    },
-    {
      "name": "Tech Ball",
-     "chance": 4250,
+     "chance": 1000,
      "minCount": 1,
      "maxCount": 1
     },
     {
+     "name": "Piece of Steel",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 20
+    },
+    {
      "name": "Metal Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Enigma Stone",
      "chance": 1000,
      "minCount": 1,
      "maxCount": 1
@@ -38833,6 +39352,502 @@
      "category": "PHYSICAL",
      "cooldownMs": 60000,
      "learnLevel": 46
+    }
+   ]
+  },
+  {
+   "pokeId": 376,
+   "name": "Metagross",
+   "looktype": 1898,
+   "description": "a metagross",
+   "type1": "STEEL",
+   "type2": "PSYCHIC",
+   "rarity": "RARE",
+   "baseHp": 80,
+   "baseAtk": 135,
+   "baseDef": 130,
+   "baseSpAtk": 95,
+   "baseSpDef": 90,
+   "baseSpeed": 70,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 0,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Piece of Steel",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
+     "name": "Tech Ball",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Metal Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Metal Coat",
+     "chance": 100,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Psychic Fangs",
+     "power": 72,
+     "type": "PSYCHIC",
+     "category": "PHYSICAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Iron Head",
+     "power": 96,
+     "type": "STEEL",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Psychic",
+     "power": 120,
+     "type": "PSYCHIC",
+     "category": "SPECIAL",
+     "cooldownMs": 30000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Metal Claw",
+     "power": 120,
+     "type": "STEEL",
+     "category": "PHYSICAL",
+     "cooldownMs": 32000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Meteor Mash",
+     "power": 120,
+     "type": "STEEL",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Flash Cannon",
+     "power": 140,
+     "type": "STEEL",
+     "category": "SPECIAL",
+     "cooldownMs": 45000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 410,
+   "name": "Shieldon",
+   "looktype": 2167,
+   "description": "a shieldon",
+   "type1": "ROCK",
+   "type2": "STEEL",
+   "rarity": "RARE",
+   "baseHp": 30,
+   "baseAtk": 42,
+   "baseDef": 118,
+   "baseSpAtk": 42,
+   "baseSpDef": 88,
+   "baseSpeed": 30,
+   "huntLevel": 60,
+   "evolvesToId": 411,
+   "evolveLevel": 100,
+   "priceNpc": 8000,
+   "sellValue": 8000,
+   "experience": 2168,
+   "loot": [
+    {
+     "name": "Piece of Steel",
+     "chance": 75000,
+     "minCount": 1,
+     "maxCount": 10
+    },
+    {
+     "name": "Small Stone",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 3
+    },
+    {
+     "name": "Metal Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Iron Head",
+     "power": 96,
+     "type": "STEEL",
+     "category": "PHYSICAL",
+     "cooldownMs": 20000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Rock Slide",
+     "power": 96,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Meteor Mash",
+     "power": 120,
+     "type": "STEEL",
+     "category": "SPECIAL",
+     "cooldownMs": 40000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Heavy Slam",
+     "power": 120,
+     "type": "STEEL",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Rock Blast",
+     "power": 120,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 35000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Rock Wrecker",
+     "power": 140,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 411,
+   "name": "Bastiodon",
+   "looktype": 2134,
+   "description": "a bastiodon",
+   "type1": "ROCK",
+   "type2": "STEEL",
+   "rarity": "RARE",
+   "baseHp": 60,
+   "baseAtk": 52,
+   "baseDef": 168,
+   "baseSpAtk": 47,
+   "baseSpDef": 138,
+   "baseSpeed": 30,
+   "huntLevel": 100,
+   "priceNpc": 18000,
+   "sellValue": 18000,
+   "experience": 6008,
+   "loot": [
+    {
+     "name": "Piece of Steel",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 15
+    },
+    {
+     "name": "Small Stone",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Metal Stone",
+     "chance": 1500,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Iron Head",
+     "power": 96,
+     "type": "STEEL",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Rock Slide",
+     "power": 96,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Stone Edge",
+     "power": 96,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 20000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Earth Power",
+     "power": 120,
+     "type": "GROUND",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Ancient Power",
+     "power": 120,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Rock Blast",
+     "power": 120,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 35000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 416,
+   "name": "Vespiquen",
+   "looktype": 5049,
+   "description": "a vespiquen",
+   "type1": "BUG",
+   "type2": "FLYING",
+   "rarity": "RARE",
+   "baseHp": 70,
+   "baseAtk": 80,
+   "baseDef": 102,
+   "baseSpAtk": 80,
+   "baseSpDef": 102,
+   "baseSpeed": 40,
+   "huntLevel": 100,
+   "priceNpc": 18000,
+   "sellValue": 18000,
+   "experience": 6008,
+   "loot": [
+    {
+     "name": "Bag of Pollen",
+     "chance": 75000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Seed",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 5
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Bug Bite",
+     "power": 72,
+     "type": "BUG",
+     "category": "PHYSICAL",
+     "cooldownMs": 8000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Slash",
+     "power": 96,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Fury Cutter",
+     "power": 96,
+     "type": "BUG",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Fell Stinger",
+     "power": 120,
+     "type": "BUG",
+     "category": "PHYSICAL",
+     "cooldownMs": 35000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Attack Order",
+     "power": 120,
+     "type": "BUG",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Bee Swarm",
+     "power": 140,
+     "type": "BUG",
+     "category": "PHYSICAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 417,
+   "name": "Pachirisu",
+   "looktype": 2170,
+   "description": "a pachirisu",
+   "type1": "ELECTRIC",
+   "rarity": "RARE",
+   "baseHp": 60,
+   "baseAtk": 45,
+   "baseDef": 70,
+   "baseSpAtk": 45,
+   "baseSpDef": 90,
+   "baseSpeed": 95,
+   "huntLevel": 50,
+   "priceNpc": 8000,
+   "sellValue": 8000,
+   "experience": 1508,
+   "loot": [
+    {
+     "name": "Screw",
+     "chance": 75000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Electric Box",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 2
+    },
+    {
+     "name": "Thunder Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Spark",
+     "power": 72,
+     "type": "ELECTRIC",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Swift",
+     "power": 72,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 10000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Nuzzle",
+     "power": 120,
+     "type": "ELECTRIC",
+     "category": "SPECIAL",
+     "cooldownMs": 32000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Grass Knot",
+     "power": 96,
+     "type": "GRASS",
+     "category": "SPECIAL",
+     "cooldownMs": 15000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Discharge",
+     "power": 140,
+     "type": "ELECTRIC",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Super Fang",
+     "power": 96,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 20000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 428,
+   "name": "Lopunny",
+   "looktype": 4392,
+   "description": "a lopunny",
+   "type1": "NORMAL",
+   "rarity": "RARE",
+   "baseHp": 65,
+   "baseAtk": 76,
+   "baseDef": 84,
+   "baseSpAtk": 54,
+   "baseSpDef": 96,
+   "baseSpeed": 105,
+   "huntLevel": 100,
+   "priceNpc": 18000,
+   "sellValue": 18000,
+   "experience": 6008,
+   "loot": [
+    {
+     "name": "Rubber Ball",
+     "chance": 75000,
+     "minCount": 1,
+     "maxCount": 8
+    },
+    {
+     "name": "cute ball",
+     "chance": 2500,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Hyper Voice",
+     "power": 96,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 25000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Ice Punch",
+     "power": 96,
+     "type": "ICE",
+     "category": "PHYSICAL",
+     "cooldownMs": 20000,
+     "learnLevel": 10
     }
    ]
   },
@@ -39044,6 +40059,1934 @@
      "category": "PHYSICAL",
      "cooldownMs": 40000,
      "learnLevel": 62
+    }
+   ]
+  },
+  {
+   "pokeId": 464,
+   "name": "Rhyperior",
+   "looktype": 1940,
+   "description": "a rhyperior",
+   "type1": "GROUND",
+   "type2": "ROCK",
+   "rarity": "RARE",
+   "baseHp": 115,
+   "baseAtk": 140,
+   "baseDef": 130,
+   "baseSpAtk": 55,
+   "baseSpDef": 55,
+   "baseSpeed": 40,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 0,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Earth Ball",
+     "chance": 55311,
+     "minCount": 1,
+     "maxCount": 10
+    },
+    {
+     "name": "Sandbag",
+     "chance": 41483,
+     "minCount": 1,
+     "maxCount": 3
+    },
+    {
+     "name": "Ancient Stone",
+     "chance": 100,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Protector",
+     "chance": 100,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Rock Throw",
+     "power": 96,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Stone Edge",
+     "power": 96,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 20000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Drill Run",
+     "power": 120,
+     "type": "GROUND",
+     "category": "PHYSICAL",
+     "cooldownMs": 30000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Bulldoze",
+     "power": 120,
+     "type": "GROUND",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Earthquake",
+     "power": 120,
+     "type": "GROUND",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Rock Wrecker",
+     "power": 140,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 465,
+   "name": "Tangrowth",
+   "looktype": 1916,
+   "description": "a tangrowth",
+   "type1": "GRASS",
+   "rarity": "RARE",
+   "baseHp": 100,
+   "baseAtk": 100,
+   "baseDef": 125,
+   "baseSpAtk": 110,
+   "baseSpDef": 50,
+   "baseSpeed": 50,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 0,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Seed",
+     "chance": 75000,
+     "minCount": 1,
+     "maxCount": 3
+    },
+    {
+     "name": "Blue Vines",
+     "chance": 1911,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Leaf Stone",
+     "chance": 1146,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Gaia Tentacles",
+     "chance": 100,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Vine Whip",
+     "power": 72,
+     "type": "GRASS",
+     "category": "PHYSICAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Fling",
+     "power": 96,
+     "type": "DARK",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Knock Off",
+     "power": 96,
+     "type": "DARK",
+     "category": "PHYSICAL",
+     "cooldownMs": 18000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Ancient Power",
+     "power": 120,
+     "type": "ROCK",
+     "category": "SPECIAL",
+     "cooldownMs": 40000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Gloomy Vines",
+     "power": 140,
+     "type": "DARK",
+     "category": "SPECIAL",
+     "cooldownMs": 45000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Giga Drain",
+     "power": 140,
+     "type": "GRASS",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 466,
+   "name": "Electivire",
+   "looktype": 1729,
+   "description": "a electivire",
+   "type1": "ELECTRIC",
+   "rarity": "RARE",
+   "baseHp": 75,
+   "baseAtk": 123,
+   "baseDef": 67,
+   "baseSpAtk": 95,
+   "baseSpDef": 85,
+   "baseSpeed": 95,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 0,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Screw",
+     "chance": 75000,
+     "minCount": 1,
+     "maxCount": 10
+    },
+    {
+     "name": "Electric Box",
+     "chance": 75000,
+     "minCount": 1,
+     "maxCount": 3
+    },
+    {
+     "name": "Electric Tail",
+     "chance": 1566,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Thunder Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Electirizer",
+     "chance": 100,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Low Kick",
+     "power": 72,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 12000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Karate Chop",
+     "power": 96,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 18000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Swift",
+     "power": 96,
+     "type": "NORMAL",
+     "category": "SPECIAL",
+     "cooldownMs": 20000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Focus Punch",
+     "power": 120,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 30000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Shock Wave",
+     "power": 120,
+     "type": "ELECTRIC",
+     "category": "SPECIAL",
+     "cooldownMs": 40000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Focus Blast",
+     "power": 140,
+     "type": "FIGHTING",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 467,
+   "name": "Magmortar",
+   "looktype": 1732,
+   "description": "a magmortar",
+   "type1": "FIRE",
+   "rarity": "RARE",
+   "baseHp": 75,
+   "baseAtk": 95,
+   "baseDef": 67,
+   "baseSpAtk": 125,
+   "baseSpDef": 95,
+   "baseSpeed": 83,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 0,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Essence of Fire",
+     "chance": 75000,
+     "minCount": 1,
+     "maxCount": 10
+    },
+    {
+     "name": "Pot Of Lava",
+     "chance": 75000,
+     "minCount": 1,
+     "maxCount": 3
+    },
+    {
+     "name": "Magma Foot",
+     "chance": 2225,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Fire Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Magmarizer",
+     "chance": 100,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Ember",
+     "power": 72,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 12000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Thunderbolt",
+     "power": 96,
+     "type": "ELECTRIC",
+     "category": "SPECIAL",
+     "cooldownMs": 25000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Volcano Shot",
+     "power": 96,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 25000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Flamethrower",
+     "power": 120,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 30000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Fire Blast",
+     "power": 120,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 40000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Magma Storm",
+     "power": 140,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 472,
+   "name": "Gliscor",
+   "looktype": 2206,
+   "description": "a gliscor",
+   "type1": "GROUND",
+   "type2": "FLYING",
+   "rarity": "RARE",
+   "baseHp": 75,
+   "baseAtk": 95,
+   "baseDef": 125,
+   "baseSpAtk": 45,
+   "baseSpDef": 75,
+   "baseSpeed": 95,
+   "huntLevel": 100,
+   "priceNpc": 18000,
+   "sellValue": 18000,
+   "experience": 6008,
+   "loot": [
+    {
+     "name": "Earth Ball",
+     "chance": 55000,
+     "minCount": 1,
+     "maxCount": 8
+    },
+    {
+     "name": "Sandbag",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 3
+    },
+    {
+     "name": "Mini Wings",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Guillotine",
+     "power": 120,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 30000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Wing Attack",
+     "power": 96,
+     "type": "FLYING",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Air Cutter",
+     "power": 120,
+     "type": "FLYING",
+     "category": "PHYSICAL",
+     "cooldownMs": 30000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Ice Fang",
+     "power": 96,
+     "type": "ICE",
+     "category": "PHYSICAL",
+     "cooldownMs": 25000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Sky Attack",
+     "power": 140,
+     "type": "FLYING",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Aerial Ace",
+     "power": 140,
+     "type": "FLYING",
+     "category": "PHYSICAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 477,
+   "name": "Dusknoir",
+   "looktype": 1907,
+   "description": "a dusknoir",
+   "type1": "GHOST",
+   "rarity": "RARE",
+   "baseHp": 45,
+   "baseAtk": 100,
+   "baseDef": 135,
+   "baseSpAtk": 65,
+   "baseSpDef": 135,
+   "baseSpeed": 45,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 0,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Ghost Essence",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 20
+    },
+    {
+     "name": "ghost skull",
+     "chance": 2000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Reaper Cloth",
+     "chance": 100,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Shadow Ball",
+     "power": 72,
+     "type": "GHOST",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Shadow Punch",
+     "power": 96,
+     "type": "GHOST",
+     "category": "PHYSICAL",
+     "cooldownMs": 25000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Ominous Wind",
+     "power": 96,
+     "type": "GHOST",
+     "category": "SPECIAL",
+     "cooldownMs": 25000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Shadow Sneak",
+     "power": 120,
+     "type": "GHOST",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Shadow Cannon",
+     "power": 120,
+     "type": "GHOST",
+     "category": "SPECIAL",
+     "cooldownMs": 40000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Hex",
+     "power": 140,
+     "type": "GHOST",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 538,
+   "name": "Throh",
+   "looktype": 5051,
+   "description": "a throh",
+   "type1": "FIGHTING",
+   "rarity": "RARE",
+   "baseHp": 120,
+   "baseAtk": 100,
+   "baseDef": 85,
+   "baseSpAtk": 30,
+   "baseSpDef": 85,
+   "baseSpeed": 45,
+   "huntLevel": 100,
+   "priceNpc": 18000,
+   "sellValue": 18000,
+   "experience": 6008,
+   "loot": [
+    {
+     "name": "Nail",
+     "chance": 60000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Stone Orb",
+     "chance": 20000,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Mega Kick",
+     "power": 96,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 20000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Mega Punch",
+     "power": 96,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 20000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Body Slam",
+     "power": 96,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 20000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Revenge",
+     "power": 120,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Superpower",
+     "power": 140,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 50000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Storm Throw",
+     "power": 120,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 539,
+   "name": "Sawk",
+   "looktype": 5053,
+   "description": "a sawk",
+   "type1": "FIGHTING",
+   "rarity": "RARE",
+   "baseHp": 75,
+   "baseAtk": 125,
+   "baseDef": 75,
+   "baseSpAtk": 30,
+   "baseSpDef": 75,
+   "baseSpeed": 85,
+   "huntLevel": 100,
+   "priceNpc": 18000,
+   "sellValue": 18000,
+   "experience": 6008,
+   "loot": [
+    {
+     "name": "Nail",
+     "chance": 60000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Stone Orb",
+     "chance": 20000,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Low Kick",
+     "power": 72,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Fire Punch",
+     "power": 96,
+     "type": "FIRE",
+     "category": "PHYSICAL",
+     "cooldownMs": 25000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Karate Chop",
+     "power": 96,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Mega Punch",
+     "power": 96,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 25000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Superpower",
+     "power": 140,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 50000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Low Sweep",
+     "power": 120,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 564,
+   "name": "Tirtouga",
+   "looktype": 4377,
+   "description": "a tirtouga",
+   "type1": "WATER",
+   "type2": "ROCK",
+   "rarity": "RARE",
+   "baseHp": 54,
+   "baseAtk": 78,
+   "baseDef": 103,
+   "baseSpAtk": 53,
+   "baseSpDef": 45,
+   "baseSpeed": 22,
+   "huntLevel": 60,
+   "evolvesToId": 565,
+   "evolveLevel": 100,
+   "priceNpc": 8000,
+   "sellValue": 8000,
+   "experience": 2168,
+   "loot": [
+    {
+     "name": "Water Gem",
+     "chance": 60000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Small Stone",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 3
+    },
+    {
+     "name": "Ancient Stone",
+     "chance": 100,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Rock Throw",
+     "power": 72,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Rock Slide",
+     "power": 96,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Stone Edge",
+     "power": 96,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 20000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Brine",
+     "power": 120,
+     "type": "WATER",
+     "category": "SPECIAL",
+     "cooldownMs": 35000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Rock Blast",
+     "power": 120,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Ancient Power",
+     "power": 140,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 565,
+   "name": "Carracosta",
+   "looktype": 4378,
+   "description": "a carracosta",
+   "type1": "WATER",
+   "type2": "ROCK",
+   "rarity": "RARE",
+   "baseHp": 74,
+   "baseAtk": 108,
+   "baseDef": 133,
+   "baseSpAtk": 83,
+   "baseSpDef": 65,
+   "baseSpeed": 32,
+   "huntLevel": 100,
+   "priceNpc": 18000,
+   "sellValue": 18000,
+   "experience": 6008,
+   "loot": [
+    {
+     "name": "Water Gem",
+     "chance": 75000,
+     "minCount": 1,
+     "maxCount": 10
+    },
+    {
+     "name": "Small Stone",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Ancient Stone",
+     "chance": 150,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Rock Throw",
+     "power": 72,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 8000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Stone Edge",
+     "power": 96,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 18000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Rock Slide",
+     "power": 96,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Brine",
+     "power": 120,
+     "type": "WATER",
+     "category": "SPECIAL",
+     "cooldownMs": 35000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Rock Blast",
+     "power": 120,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Ancient Power",
+     "power": 140,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 566,
+   "name": "Archen",
+   "looktype": 4387,
+   "description": "a archen",
+   "type1": "ROCK",
+   "type2": "FLYING",
+   "rarity": "RARE",
+   "baseHp": 55,
+   "baseAtk": 112,
+   "baseDef": 45,
+   "baseSpAtk": 74,
+   "baseSpDef": 45,
+   "baseSpeed": 70,
+   "huntLevel": 60,
+   "evolvesToId": 567,
+   "evolveLevel": 100,
+   "priceNpc": 8000,
+   "sellValue": 8000,
+   "experience": 2168,
+   "loot": [
+    {
+     "name": "Small Stone",
+     "chance": 60000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Mini Wings",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Ancient Stone",
+     "chance": 100,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Pluck",
+     "power": 72,
+     "type": "FLYING",
+     "category": "SPECIAL",
+     "cooldownMs": 12000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Rock Throw",
+     "power": 96,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Rock Slide",
+     "power": 96,
+     "type": "ROCK",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Wing Attack",
+     "power": 96,
+     "type": "FLYING",
+     "category": "PHYSICAL",
+     "cooldownMs": 25000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Aerial Ace",
+     "power": 140,
+     "type": "FLYING",
+     "category": "PHYSICAL",
+     "cooldownMs": 50000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Sky Attack",
+     "power": 140,
+     "type": "FLYING",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 567,
+   "name": "Archeops",
+   "looktype": 4397,
+   "description": "a archeops",
+   "type1": "ROCK",
+   "type2": "FLYING",
+   "rarity": "RARE",
+   "baseHp": 75,
+   "baseAtk": 140,
+   "baseDef": 65,
+   "baseSpAtk": 112,
+   "baseSpDef": 65,
+   "baseSpeed": 110,
+   "huntLevel": 100,
+   "priceNpc": 18000,
+   "sellValue": 18000,
+   "experience": 6008,
+   "loot": [
+    {
+     "name": "Small Stone",
+     "chance": 75000,
+     "minCount": 1,
+     "maxCount": 8
+    },
+    {
+     "name": "Mini Wings",
+     "chance": 6000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Ancient Stone",
+     "chance": 150,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Pluck",
+     "power": 72,
+     "type": "FLYING",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Dragon Claw",
+     "power": 96,
+     "type": "DRAGON",
+     "category": "PHYSICAL",
+     "cooldownMs": 20000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Dual Wingbeat",
+     "power": 96,
+     "type": "FLYING",
+     "category": "PHYSICAL",
+     "cooldownMs": 22000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Bounce",
+     "power": 120,
+     "type": "FLYING",
+     "category": "SPECIAL",
+     "cooldownMs": 40000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Air Slash",
+     "power": 120,
+     "type": "FLYING",
+     "category": "PHYSICAL",
+     "cooldownMs": 30000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Acrobatics",
+     "power": 120,
+     "type": "FLYING",
+     "category": "PHYSICAL",
+     "cooldownMs": 30000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 636,
+   "name": "Larvesta",
+   "looktype": 4401,
+   "description": "a larvesta",
+   "type1": "BUG",
+   "type2": "FIRE",
+   "rarity": "RARE",
+   "baseHp": 55,
+   "baseAtk": 85,
+   "baseDef": 55,
+   "baseSpAtk": 50,
+   "baseSpDef": 55,
+   "baseSpeed": 60,
+   "huntLevel": 80,
+   "evolvesToId": 637,
+   "evolveLevel": 100,
+   "priceNpc": 8000,
+   "sellValue": 8000,
+   "experience": 3848,
+   "loot": [
+    {
+     "name": "Essence of Fire",
+     "chance": 60000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Bag of Pollen",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 2
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Ember",
+     "power": 72,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Flamethrower",
+     "power": 96,
+     "type": "FIRE",
+     "category": "PHYSICAL",
+     "cooldownMs": 20000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Bug Buzz",
+     "power": 140,
+     "type": "BUG",
+     "category": "PHYSICAL",
+     "cooldownMs": 45000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Flame Charge",
+     "power": 120,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 40000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Flare Blitz",
+     "power": 140,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Fiery Dance",
+     "power": 140,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 637,
+   "name": "Volcarona",
+   "looktype": 4430,
+   "description": "a volcarona",
+   "type1": "BUG",
+   "type2": "FIRE",
+   "rarity": "RARE",
+   "baseHp": 85,
+   "baseAtk": 60,
+   "baseDef": 65,
+   "baseSpAtk": 135,
+   "baseSpDef": 105,
+   "baseSpeed": 100,
+   "huntLevel": 100,
+   "priceNpc": 18000,
+   "sellValue": 18000,
+   "experience": 6008,
+   "loot": [
+    {
+     "name": "Essence of Fire",
+     "chance": 75000,
+     "minCount": 1,
+     "maxCount": 10
+    },
+    {
+     "name": "Bag of Pollen",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 3
+    },
+    {
+     "name": "Fire Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Ember",
+     "power": 72,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Flamethrower",
+     "power": 72,
+     "type": "FIRE",
+     "category": "PHYSICAL",
+     "cooldownMs": 12000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Bug Buzz",
+     "power": 120,
+     "type": "BUG",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Flame Charge",
+     "power": 120,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 40000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Overheat",
+     "power": 120,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 30000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Fire Blast",
+     "power": 120,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 40000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 669,
+   "name": "Flabebe",
+   "looktype": 5197,
+   "description": "a flabebe",
+   "type1": "FAIRY",
+   "rarity": "RARE",
+   "baseHp": 44,
+   "baseAtk": 38,
+   "baseDef": 39,
+   "baseSpAtk": 61,
+   "baseSpDef": 79,
+   "baseSpeed": 42,
+   "huntLevel": 40,
+   "evolvesToId": 670,
+   "evolveLevel": 70,
+   "priceNpc": 3000,
+   "sellValue": 3000,
+   "experience": 968,
+   "loot": [
+    {
+     "name": "Cure Flower",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Seed",
+     "chance": 60000,
+     "minCount": 1,
+     "maxCount": 3
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Tackle",
+     "power": 72,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 8000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Razor Leaf",
+     "power": 72,
+     "type": "FAIRY",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Dazzling Gleam",
+     "power": 72,
+     "type": "FAIRY",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Fairy Wind",
+     "power": 96,
+     "type": "FAIRY",
+     "category": "SPECIAL",
+     "cooldownMs": 25000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Floral Storm",
+     "power": 140,
+     "type": "FAIRY",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 40
+    }
+   ]
+  },
+  {
+   "pokeId": 670,
+   "name": "Floette",
+   "looktype": 5198,
+   "description": "a floette",
+   "type1": "FAIRY",
+   "rarity": "RARE",
+   "baseHp": 54,
+   "baseAtk": 45,
+   "baseDef": 47,
+   "baseSpAtk": 75,
+   "baseSpDef": 98,
+   "baseSpeed": 52,
+   "huntLevel": 70,
+   "evolvesToId": 671,
+   "evolveLevel": 100,
+   "priceNpc": 8000,
+   "sellValue": 8000,
+   "experience": 2948,
+   "loot": [
+    {
+     "name": "Cure Flower",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Enchanted Gem",
+     "chance": 20000,
+     "minCount": 1,
+     "maxCount": 2
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Tackle",
+     "power": 72,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 8000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Razor Leaf",
+     "power": 72,
+     "type": "FAIRY",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Dazzling Gleam",
+     "power": 96,
+     "type": "FAIRY",
+     "category": "SPECIAL",
+     "cooldownMs": 20000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Heart Pound",
+     "power": 120,
+     "type": "FAIRY",
+     "category": "PHYSICAL",
+     "cooldownMs": 35000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Floral Storm",
+     "power": 140,
+     "type": "FAIRY",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Fairy Wind",
+     "power": 96,
+     "type": "FAIRY",
+     "category": "SPECIAL",
+     "cooldownMs": 25000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 671,
+   "name": "Florges",
+   "looktype": 5199,
+   "description": "a florges",
+   "type1": "FAIRY",
+   "rarity": "RARE",
+   "baseHp": 78,
+   "baseAtk": 65,
+   "baseDef": 68,
+   "baseSpAtk": 112,
+   "baseSpDef": 154,
+   "baseSpeed": 75,
+   "huntLevel": 100,
+   "priceNpc": 18000,
+   "sellValue": 18000,
+   "experience": 6008,
+   "loot": [
+    {
+     "name": "Cure Flower",
+     "chance": 40000,
+     "minCount": 1,
+     "maxCount": 2
+    },
+    {
+     "name": "Enchanted Gem",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 3
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Tackle",
+     "power": 72,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 8000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Razor Leaf",
+     "power": 72,
+     "type": "FAIRY",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Dazzling Gleam",
+     "power": 96,
+     "type": "FAIRY",
+     "category": "SPECIAL",
+     "cooldownMs": 20000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Heart Pound",
+     "power": 120,
+     "type": "FAIRY",
+     "category": "PHYSICAL",
+     "cooldownMs": 35000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Floral Storm",
+     "power": 140,
+     "type": "FAIRY",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Petal Blizzard",
+     "power": 140,
+     "type": "FAIRY",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 674,
+   "name": "Pancham",
+   "looktype": 4388,
+   "description": "a pancham",
+   "type1": "FIGHTING",
+   "rarity": "RARE",
+   "baseHp": 67,
+   "baseAtk": 82,
+   "baseDef": 62,
+   "baseSpAtk": 46,
+   "baseSpDef": 48,
+   "baseSpeed": 43,
+   "huntLevel": 60,
+   "evolvesToId": 675,
+   "evolveLevel": 100,
+   "priceNpc": 8000,
+   "sellValue": 8000,
+   "experience": 2168,
+   "loot": [
+    {
+     "name": "Rubber Ball",
+     "chance": 60000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Nail",
+     "chance": 20000,
+     "minCount": 1,
+     "maxCount": 2
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Dark Pulse",
+     "power": 96,
+     "type": "DARK",
+     "category": "SPECIAL",
+     "cooldownMs": 15000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Drain Punch",
+     "power": 120,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 30000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Circle Throw",
+     "power": 140,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 50000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Superpower",
+     "power": 140,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 45000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Arm Thrust",
+     "power": 120,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 30000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Vital Throw",
+     "power": 96,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 675,
+   "name": "Pangoro",
+   "looktype": 4390,
+   "description": "a pangoro",
+   "type1": "FIGHTING",
+   "type2": "DARK",
+   "rarity": "RARE",
+   "baseHp": 95,
+   "baseAtk": 124,
+   "baseDef": 78,
+   "baseSpAtk": 69,
+   "baseSpDef": 71,
+   "baseSpeed": 58,
+   "huntLevel": 100,
+   "priceNpc": 18000,
+   "sellValue": 18000,
+   "experience": 6008,
+   "loot": [
+    {
+     "name": "Rubber Ball",
+     "chance": 70000,
+     "minCount": 1,
+     "maxCount": 8
+    },
+    {
+     "name": "Nail",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 3
+    },
+    {
+     "name": "Dark Gem",
+     "chance": 10000,
+     "minCount": 1,
+     "maxCount": 2
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Karate Chop",
+     "power": 72,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Mega Punch",
+     "power": 72,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 12000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Circle Throw",
+     "power": 140,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 60000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Superpower",
+     "power": 140,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 45000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Reversal",
+     "power": 140,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 60000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Vital Throw",
+     "power": 96,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 681,
+   "name": "Aegislash",
+   "looktype": 4445,
+   "description": "a aegislash",
+   "type1": "STEEL",
+   "type2": "GHOST",
+   "rarity": "RARE",
+   "baseHp": 60,
+   "baseAtk": 50,
+   "baseDef": 140,
+   "baseSpAtk": 50,
+   "baseSpDef": 140,
+   "baseSpeed": 60,
+   "huntLevel": 120,
+   "priceNpc": 120000,
+   "sellValue": 18000,
+   "experience": 8648,
+   "loot": [
+    {
+     "name": "Piece of Steel",
+     "chance": 75000,
+     "minCount": 1,
+     "maxCount": 12
+    },
+    {
+     "name": "Ghost Essence",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Metal Stone",
+     "chance": 1500,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Shadow Ball",
+     "power": 72,
+     "type": "GHOST",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Psycho Cut",
+     "power": 72,
+     "type": "PSYCHIC",
+     "category": "PHYSICAL",
+     "cooldownMs": 10000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Shadow Sneak",
+     "power": 120,
+     "type": "GHOST",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Shadow Claw",
+     "power": 120,
+     "type": "GHOST",
+     "category": "PHYSICAL",
+     "cooldownMs": 35000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Flash Cannon",
+     "power": 140,
+     "type": "STEEL",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Shadow Blast",
+     "power": 140,
+     "type": "GHOST",
+     "category": "SPECIAL",
+     "cooldownMs": 60000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 690,
+   "name": "Skrelp",
+   "looktype": 4402,
+   "description": "a skrelp",
+   "type1": "POISON",
+   "type2": "WATER",
+   "rarity": "RARE",
+   "baseHp": 50,
+   "baseAtk": 60,
+   "baseDef": 60,
+   "baseSpAtk": 60,
+   "baseSpDef": 60,
+   "baseSpeed": 30,
+   "huntLevel": 60,
+   "evolvesToId": 691,
+   "evolveLevel": 100,
+   "priceNpc": 8000,
+   "sellValue": 8000,
+   "experience": 2168,
+   "loot": [
+    {
+     "name": "Dragon Scale",
+     "chance": 20000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Bottles of Poison",
+     "chance": 60000,
+     "minCount": 1,
+     "maxCount": 4
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Aqua Tail",
+     "power": 72,
+     "type": "WATER",
+     "category": "PHYSICAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Poison Sting",
+     "power": 72,
+     "type": "POISON",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Sludge Wave",
+     "power": 120,
+     "type": "POISON",
+     "category": "SPECIAL",
+     "cooldownMs": 30000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Poison Tail",
+     "power": 96,
+     "type": "POISON",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Sludge Bomb",
+     "power": 140,
+     "type": "POISON",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 40
+    }
+   ]
+  },
+  {
+   "pokeId": 691,
+   "name": "Dragalge",
+   "looktype": 4438,
+   "description": "a dragalge",
+   "type1": "POISON",
+   "type2": "DRAGON",
+   "rarity": "RARE",
+   "baseHp": 65,
+   "baseAtk": 75,
+   "baseDef": 90,
+   "baseSpAtk": 97,
+   "baseSpDef": 123,
+   "baseSpeed": 44,
+   "huntLevel": 100,
+   "priceNpc": 18000,
+   "sellValue": 18000,
+   "experience": 6008,
+   "loot": [
+    {
+     "name": "Dragon Scale",
+     "chance": 40000,
+     "minCount": 1,
+     "maxCount": 2
+    },
+    {
+     "name": "Bottles of Poison",
+     "chance": 70000,
+     "minCount": 1,
+     "maxCount": 5
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Acid",
+     "power": 72,
+     "type": "POISON",
+     "category": "SPECIAL",
+     "cooldownMs": 8000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Sludge",
+     "power": 72,
+     "type": "POISON",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Poison Tail",
+     "power": 96,
+     "type": "POISON",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Sludge Bomb",
+     "power": 120,
+     "type": "POISON",
+     "category": "SPECIAL",
+     "cooldownMs": 40000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Deadly Spikes",
+     "power": 140,
+     "type": "POISON",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Acid Armor",
+     "power": 140,
+     "type": "POISON",
+     "category": "PHYSICAL",
+     "cooldownMs": 80000,
+     "learnLevel": 50
     }
    ]
   },
@@ -45789,32 +48732,20 @@
      "maxCount": 1
     },
     {
-     "name": "Bottles of Poison",
-     "chance": 92959,
-     "minCount": 6,
-     "maxCount": 31
-    },
-    {
      "name": "Seed",
-     "chance": 92959,
-     "minCount": 6,
-     "maxCount": 31
+     "chance": 95000,
+     "minCount": 9,
+     "maxCount": 88
     },
     {
      "name": "Leaves",
-     "chance": 92959,
-     "minCount": 2,
-     "maxCount": 2
+     "chance": 95000,
+     "minCount": 3,
+     "maxCount": 3
     },
     {
-     "name": "Bag of Pollen",
-     "chance": 42815,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Bulb",
-     "chance": 3568,
+     "name": "greens",
+     "chance": 10485,
      "minCount": 1,
      "maxCount": 1
     },
@@ -45910,19 +48841,19 @@
    "loot": [
     {
      "name": "Seed",
-     "chance": 93844,
-     "minCount": 14,
-     "maxCount": 203
+     "chance": 95000,
+     "minCount": 10,
+     "maxCount": 209
     },
     {
      "name": "Leaves",
-     "chance": 93844,
+     "chance": 95000,
      "minCount": 4,
      "maxCount": 4
     },
     {
      "name": "greens",
-     "chance": 34948,
+     "chance": 24766,
      "minCount": 1,
      "maxCount": 1
     },
@@ -46031,32 +48962,20 @@
      "maxCount": 1
     },
     {
-     "name": "Bottles of Poison",
-     "chance": 89740,
-     "minCount": 8,
-     "maxCount": 172
-    },
-    {
      "name": "Seed",
-     "chance": 89740,
-     "minCount": 8,
-     "maxCount": 172
+     "chance": 95000,
+     "minCount": 13,
+     "maxCount": 554
     },
     {
      "name": "Leaves",
-     "chance": 89740,
-     "minCount": 5,
-     "maxCount": 5
+     "chance": 95000,
+     "minCount": 8,
+     "maxCount": 8
     },
     {
-     "name": "Bag of Pollen",
-     "chance": 89740,
-     "minCount": 3,
-     "maxCount": 3
-    },
-    {
-     "name": "Bulb",
-     "chance": 39420,
+     "name": "greens",
+     "chance": 65014,
      "minCount": 1,
      "maxCount": 1
     }
@@ -46159,22 +49078,22 @@
      "maxCount": 1
     },
     {
+     "name": "fire feather",
+     "chance": 8451,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Essence of Fire",
-     "chance": 79927,
-     "minCount": 8,
-     "maxCount": 77
+     "chance": 95000,
+     "minCount": 7,
+     "maxCount": 71
     },
     {
      "name": "Pot of Lava",
-     "chance": 79927,
+     "chance": 95000,
      "minCount": 2,
      "maxCount": 2
-    },
-    {
-     "name": "Fire Tail",
-     "chance": 3848,
-     "minCount": 1,
-     "maxCount": 1
     },
     {
      "name": "Fire Stone",
@@ -46268,20 +49187,26 @@
    "experience": 968,
    "loot": [
     {
+     "name": "fire feather",
+     "chance": 1512,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "band-aid",
+     "chance": 60471,
+     "minCount": 1,
+     "maxCount": 10
+    },
+    {
      "name": "Essence of Fire",
-     "chance": 91370,
-     "minCount": 11,
-     "maxCount": 166
+     "chance": 60471,
+     "minCount": 1,
+     "maxCount": 10
     },
     {
      "name": "Pot of Lava",
-     "chance": 91370,
-     "minCount": 3,
-     "maxCount": 3
-    },
-    {
-     "name": "fire feather",
-     "chance": 27794,
+     "chance": 24188,
      "minCount": 1,
      "maxCount": 1
     },
@@ -46391,32 +49316,26 @@
      "maxCount": 1
     },
     {
-     "name": "Straw",
-     "chance": 91094,
-     "minCount": 8,
-     "maxCount": 172
-    },
-    {
-     "name": "Essence of Fire",
-     "chance": 91094,
-     "minCount": 8,
-     "maxCount": 172
-    },
-    {
-     "name": "Pot of Lava",
-     "chance": 91094,
-     "minCount": 4,
-     "maxCount": 4
-    },
-    {
-     "name": "Fire Tail",
-     "chance": 40095,
+     "name": "fire feather",
+     "chance": 3565,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "Dragon Tooth",
-     "chance": 4662,
+     "name": "band-aid",
+     "chance": 67101,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
+     "name": "Essence of Fire",
+     "chance": 67101,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
+     "name": "Pot of Lava",
+     "chance": 38164,
      "minCount": 1,
      "maxCount": 1
     }
@@ -46535,22 +49454,22 @@
      "maxCount": 1
     },
     {
+     "name": "black fins",
+     "chance": 10114,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Water Gem",
      "chance": 95000,
      "minCount": 9,
-     "maxCount": 90
+     "maxCount": 85
     },
     {
      "name": "Water Pendant",
      "chance": 95000,
      "minCount": 2,
      "maxCount": 2
-    },
-    {
-     "name": "Squirtle Hull",
-     "chance": 5359,
-     "minCount": 1,
-     "maxCount": 1
     },
     {
      "name": "Water Stone",
@@ -46650,22 +49569,34 @@
      "maxCount": 1
     },
     {
-     "name": "Water Gem",
-     "chance": 93801,
+     "name": "black fins",
+     "chance": 22379,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Earth Ball",
+     "chance": 95000,
      "minCount": 9,
-     "maxCount": 186
+     "maxCount": 94
+    },
+    {
+     "name": "Water Gem",
+     "chance": 95000,
+     "minCount": 9,
+     "maxCount": 94
     },
     {
      "name": "Water Pendant",
-     "chance": 93801,
-     "minCount": 3,
-     "maxCount": 3
+     "chance": 95000,
+     "minCount": 2,
+     "maxCount": 2
     },
     {
-     "name": "Squirtle Hull",
-     "chance": 21786,
-     "minCount": 1,
-     "maxCount": 1
+     "name": "Sandbag",
+     "chance": 95000,
+     "minCount": 2,
+     "maxCount": 2
     },
     {
      "name": "Water Stone",
@@ -46759,34 +49690,34 @@
    "experience": 19508,
    "loot": [
     {
-     "name": "Water Gem",
-     "chance": 90293,
-     "minCount": 12,
-     "maxCount": 247
+     "name": "black fins",
+     "chance": 58965,
+     "minCount": 1,
+     "maxCount": 1
     },
     {
      "name": "Earth Ball",
-     "chance": 90293,
+     "chance": 95000,
      "minCount": 12,
-     "maxCount": 247
+     "maxCount": 245
+    },
+    {
+     "name": "Water Gem",
+     "chance": 95000,
+     "minCount": 12,
+     "maxCount": 245
     },
     {
      "name": "Water Pendant",
-     "chance": 90293,
-     "minCount": 4,
-     "maxCount": 4
+     "chance": 95000,
+     "minCount": 3,
+     "maxCount": 3
     },
     {
      "name": "Sandbag",
-     "chance": 90293,
-     "minCount": 4,
-     "maxCount": 4
-    },
-    {
-     "name": "black fins",
-     "chance": 56320,
-     "minCount": 1,
-     "maxCount": 1
+     "chance": 95000,
+     "minCount": 3,
+     "maxCount": 3
     },
     {
      "name": "Water Stone",
@@ -46915,22 +49846,16 @@
      "maxCount": 1
     },
     {
-     "name": "Dark Gem",
-     "chance": 65809,
-     "minCount": 1,
-     "maxCount": 10
-    },
-    {
-     "name": "Ruby",
-     "chance": 49357,
-     "minCount": 1,
-     "maxCount": 3
-    },
-    {
-     "name": "Big Crystal",
-     "chance": 16452,
+     "name": "hyena tail",
+     "chance": 32674,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Dark Gem",
+     "chance": 95000,
+     "minCount": 18,
+     "maxCount": 183
     },
     {
      "name": "Darkness Stone",
@@ -47013,22 +49938,16 @@
      "maxCount": 1
     },
     {
-     "name": "Dark Gem",
-     "chance": 83582,
-     "minCount": 3,
-     "maxCount": 27
-    },
-    {
-     "name": "Ruby",
-     "chance": 83582,
-     "minCount": 2,
-     "maxCount": 6
-    },
-    {
-     "name": "Big Crystal",
-     "chance": 55461,
+     "name": "hyena tail",
+     "chance": 81267,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Dark Gem",
+     "chance": 95000,
+     "minCount": 16,
+     "maxCount": 692
     },
     {
      "name": "Darkness Stone",
@@ -47144,20 +50063,32 @@
      "maxCount": 1
     },
     {
+     "name": "water plant",
+     "chance": 9531,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Seed",
+     "chance": 95000,
+     "minCount": 7,
+     "maxCount": 36
+    },
+    {
      "name": "Water Gem",
-     "chance": 89630,
-     "minCount": 3,
-     "maxCount": 26
+     "chance": 95000,
+     "minCount": 7,
+     "maxCount": 36
+    },
+    {
+     "name": "Leaves",
+     "chance": 95000,
+     "minCount": 1,
+     "maxCount": 1
     },
     {
      "name": "Water Pendant",
-     "chance": 89630,
-     "minCount": 2,
-     "maxCount": 6
-    },
-    {
-     "name": "lobster claw",
-     "chance": 57664,
+     "chance": 95000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -47237,20 +50168,32 @@
      "maxCount": 1
     },
     {
+     "name": "water plant",
+     "chance": 30469,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Seed",
+     "chance": 95000,
+     "minCount": 12,
+     "maxCount": 117
+    },
+    {
      "name": "Water Gem",
-     "chance": 85845,
-     "minCount": 6,
-     "maxCount": 64
+     "chance": 95000,
+     "minCount": 12,
+     "maxCount": 117
+    },
+    {
+     "name": "Leaves",
+     "chance": 95000,
+     "minCount": 2,
+     "maxCount": 2
     },
     {
      "name": "Water Pendant",
-     "chance": 85845,
-     "minCount": 5,
-     "maxCount": 15
-    },
-    {
-     "name": "lobster claw",
-     "chance": 85845,
+     "chance": 95000,
      "minCount": 2,
      "maxCount": 2
     }
@@ -47346,22 +50289,34 @@
      "maxCount": 1
     },
     {
+     "name": "water plant",
+     "chance": 95000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Seed",
+     "chance": 95000,
+     "minCount": 19,
+     "maxCount": 391
+    },
+    {
      "name": "Water Gem",
      "chance": 95000,
      "minCount": 19,
-     "maxCount": 195
+     "maxCount": 391
+    },
+    {
+     "name": "Leaves",
+     "chance": 95000,
+     "minCount": 5,
+     "maxCount": 5
     },
     {
      "name": "Water Pendant",
      "chance": 95000,
-     "minCount": 14,
-     "maxCount": 43
-    },
-    {
-     "name": "lobster claw",
-     "chance": 95000,
-     "minCount": 4,
-     "maxCount": 4
+     "minCount": 5,
+     "maxCount": 5
     }
    ],
    "attacks": [
@@ -47470,28 +50425,22 @@
      "maxCount": 1
     },
     {
+     "name": "big seed",
+     "chance": 7184,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Seed",
      "chance": 95000,
      "minCount": 6,
-     "maxCount": 18
-    },
-    {
-     "name": "Enchanted Gem",
-     "chance": 95000,
-     "minCount": 6,
-     "maxCount": 18
+     "maxCount": 55
     },
     {
      "name": "Leaves",
      "chance": 95000,
      "minCount": 2,
      "maxCount": 2
-    },
-    {
-     "name": "Plant Foot",
-     "chance": 3643,
-     "minCount": 1,
-     "maxCount": 1
     },
     {
      "name": "Leaf Stone",
@@ -47575,28 +50524,28 @@
      "maxCount": 1
     },
     {
+     "name": "big seed",
+     "chance": 24118,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Seed",
-     "chance": 92825,
-     "minCount": 11,
-     "maxCount": 63
+     "chance": 95000,
+     "minCount": 9,
+     "maxCount": 92
     },
     {
-     "name": "Bottles of Poison",
-     "chance": 92825,
-     "minCount": 11,
-     "maxCount": 63
+     "name": "Dark Gem",
+     "chance": 95000,
+     "minCount": 9,
+     "maxCount": 92
     },
     {
-     "name": "Bag of Pollen",
-     "chance": 91824,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Strange Flower",
-     "chance": 25711,
-     "minCount": 1,
-     "maxCount": 1
+     "name": "Leaves",
+     "chance": 95000,
+     "minCount": 4,
+     "maxCount": 4
     },
     {
      "name": "Leaf Stone",
@@ -47682,28 +50631,28 @@
    "experience": 19508,
    "loot": [
     {
+     "name": "Sharp Leaves",
+     "chance": 72429,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Seed",
      "chance": 95000,
-     "minCount": 15,
-     "maxCount": 307
+     "minCount": 14,
+     "maxCount": 285
     },
     {
      "name": "Dark Gem",
      "chance": 95000,
-     "minCount": 15,
-     "maxCount": 307
+     "minCount": 14,
+     "maxCount": 285
     },
     {
      "name": "Leaves",
      "chance": 95000,
-     "minCount": 5,
-     "maxCount": 5
-    },
-    {
-     "name": "Sharp Leaves",
-     "chance": 73775,
-     "minCount": 1,
-     "maxCount": 1
+     "minCount": 8,
+     "maxCount": 8
     },
     {
      "name": "Leaf Stone",
@@ -47817,26 +50766,32 @@
      "maxCount": 1
     },
     {
+     "name": "crimson feather",
+     "chance": 17804,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Straw",
      "chance": 95000,
      "minCount": 14,
-     "maxCount": 138
+     "maxCount": 68
     },
     {
-     "name": "Water Gem",
+     "name": "Rubber Ball",
      "chance": 95000,
-     "minCount": 11,
-     "maxCount": 31
+     "minCount": 14,
+     "maxCount": 68
     },
     {
-     "name": "Water Pendant",
+     "name": "Feather",
      "chance": 95000,
-     "minCount": 3,
-     "maxCount": 3
+     "minCount": 2,
+     "maxCount": 2
     },
     {
-     "name": "pelican wing",
-     "chance": 32605,
+     "name": "Bird Beak",
+     "chance": 95000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -47924,28 +50879,34 @@
      "maxCount": 1
     },
     {
-     "name": "Straw",
-     "chance": 95000,
-     "minCount": 37,
-     "maxCount": 373
-    },
-    {
-     "name": "Water Gem",
-     "chance": 95000,
-     "minCount": 28,
-     "maxCount": 84
-    },
-    {
-     "name": "Water Pendant",
-     "chance": 95000,
-     "minCount": 10,
-     "maxCount": 10
-    },
-    {
-     "name": "pelican wing",
-     "chance": 88596,
+     "name": "crimson feather",
+     "chance": 65209,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Straw",
+     "chance": 95000,
+     "minCount": 12,
+     "maxCount": 232
+    },
+    {
+     "name": "Rubber Ball",
+     "chance": 95000,
+     "minCount": 12,
+     "maxCount": 232
+    },
+    {
+     "name": "Feather",
+     "chance": 95000,
+     "minCount": 2,
+     "maxCount": 2
+    },
+    {
+     "name": "Bird Beak",
+     "chance": 95000,
+     "minCount": 4,
+     "maxCount": 4
     }
    ],
    "attacks": [
@@ -48055,22 +51016,28 @@
      "maxCount": 1
     },
     {
+     "name": "pelican wing",
+     "chance": 14614,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Straw",
+     "chance": 95000,
+     "minCount": 12,
+     "maxCount": 62
+    },
+    {
      "name": "Water Gem",
-     "chance": 92735,
-     "minCount": 10,
-     "maxCount": 104
+     "chance": 95000,
+     "minCount": 12,
+     "maxCount": 62
     },
     {
      "name": "Water Pendant",
-     "chance": 92735,
+     "chance": 95000,
      "minCount": 3,
      "maxCount": 3
-    },
-    {
-     "name": "Strange Thing",
-     "chance": 19357,
-     "minCount": 1,
-     "maxCount": 1
     },
     {
      "name": "Crystal Stone",
@@ -48156,28 +51123,28 @@
    "experience": 19508,
    "loot": [
     {
+     "name": "pelican wing",
+     "chance": 52137,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Straw",
-     "chance": 93912,
-     "minCount": 11,
-     "maxCount": 236
+     "chance": 95000,
+     "minCount": 10,
+     "maxCount": 217
     },
     {
      "name": "Water Gem",
-     "chance": 93912,
-     "minCount": 11,
-     "maxCount": 236
+     "chance": 95000,
+     "minCount": 10,
+     "maxCount": 217
     },
     {
      "name": "Water Pendant",
-     "chance": 93912,
-     "minCount": 4,
-     "maxCount": 4
-    },
-    {
-     "name": "pelican wing",
-     "chance": 56105,
-     "minCount": 1,
-     "maxCount": 1
+     "chance": 95000,
+     "minCount": 6,
+     "maxCount": 6
     },
     {
      "name": "Water Stone",
@@ -48287,28 +51254,28 @@
    "experience": 548,
    "loot": [
     {
-     "name": "Enchanted Gem",
-     "chance": 90792,
-     "minCount": 4,
-     "maxCount": 41
+     "name": "Cure Flower",
+     "chance": 12097,
+     "minCount": 1,
+     "maxCount": 1
     },
     {
      "name": "Comb",
-     "chance": 74478,
+     "chance": 12097,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Enchanted Gem",
+     "chance": 95000,
+     "minCount": 10,
+     "maxCount": 102
     },
     {
      "name": "Future Orb",
-     "chance": 74478,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Cure Flower",
-     "chance": 5121,
-     "minCount": 1,
-     "maxCount": 1
+     "chance": 95000,
+     "minCount": 3,
+     "maxCount": 3
     }
    ],
    "attacks": [
@@ -48388,28 +51355,28 @@
    "experience": 2168,
    "loot": [
     {
-     "name": "Enchanted Gem",
-     "chance": 74707,
-     "minCount": 6,
-     "maxCount": 92
+     "name": "Cure Flower",
+     "chance": 31268,
+     "minCount": 1,
+     "maxCount": 1
     },
     {
      "name": "Comb",
-     "chance": 74707,
-     "minCount": 2,
-     "maxCount": 2
+     "chance": 27359,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Enchanted Gem",
+     "chance": 95000,
+     "minCount": 7,
+     "maxCount": 283
     },
     {
      "name": "Future Orb",
-     "chance": 74707,
+     "chance": 95000,
      "minCount": 2,
      "maxCount": 2
-    },
-    {
-     "name": "Cure Flower",
-     "chance": 12601,
-     "minCount": 1,
-     "maxCount": 1
     },
     {
      "name": "Heart Stone",
@@ -48503,28 +51470,28 @@
    "experience": 19508,
    "loot": [
     {
-     "name": "Enchanted Gem",
-     "chance": 88864,
-     "minCount": 8,
-     "maxCount": 168
+     "name": "Cure Flower",
+     "chance": 52480,
+     "minCount": 1,
+     "maxCount": 1
     },
     {
      "name": "Comb",
-     "chance": 88864,
-     "minCount": 3,
-     "maxCount": 3
+     "chance": 30871,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Enchanted Gem",
+     "chance": 95000,
+     "minCount": 13,
+     "maxCount": 559
     },
     {
      "name": "Future Orb",
-     "chance": 88864,
-     "minCount": 3,
-     "maxCount": 3
-    },
-    {
-     "name": "Cure Flower",
-     "chance": 37766,
-     "minCount": 1,
-     "maxCount": 1
+     "chance": 95000,
+     "minCount": 5,
+     "maxCount": 5
     },
     {
      "name": "Enigma Stone",
@@ -48637,22 +51604,22 @@
      "maxCount": 1
     },
     {
-     "name": "Rubber Ball",
-     "chance": 95000,
-     "minCount": 5,
-     "maxCount": 51
-    },
-    {
-     "name": "Nail",
-     "chance": 95000,
-     "minCount": 4,
-     "maxCount": 11
-    },
-    {
-     "name": "cute ball",
-     "chance": 95000,
+     "name": "fur ball",
+     "chance": 21278,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Rubber Ball",
+     "chance": 95000,
+     "minCount": 14,
+     "maxCount": 138
+    },
+    {
+     "name": "Fur",
+     "chance": 95000,
+     "minCount": 4,
+     "maxCount": 4
     }
    ],
    "attacks": [
@@ -48745,22 +51712,22 @@
      "maxCount": 1
     },
     {
+     "name": "fur ball",
+     "chance": 42213,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Rubber Ball",
-     "chance": 90701,
-     "minCount": 8,
-     "maxCount": 77
+     "chance": 95000,
+     "minCount": 7,
+     "maxCount": 306
     },
     {
-     "name": "Nail",
-     "chance": 90701,
-     "minCount": 6,
-     "maxCount": 17
-    },
-    {
-     "name": "cute ball",
-     "chance": 90701,
-     "minCount": 2,
-     "maxCount": 2
+     "name": "Fur",
+     "chance": 95000,
+     "minCount": 4,
+     "maxCount": 4
     }
    ],
    "attacks": [
@@ -48861,28 +51828,22 @@
      "maxCount": 1
     },
     {
+     "name": "cute ball",
+     "chance": 21787,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Rubber Ball",
      "chance": 95000,
-     "minCount": 10,
-     "maxCount": 48
+     "minCount": 9,
+     "maxCount": 92
     },
     {
-     "name": "Straw",
+     "name": "Nail",
      "chance": 95000,
-     "minCount": 10,
-     "maxCount": 48
-    },
-    {
-     "name": "Feather",
-     "chance": 68688,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Colored Feather",
-     "chance": 12593,
-     "minCount": 1,
-     "maxCount": 1
+     "minCount": 2,
+     "maxCount": 2
     },
     {
      "name": "Heart Stone",
@@ -48965,34 +51926,28 @@
      "maxCount": 1
     },
     {
+     "name": "cute ball",
+     "chance": 54307,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Rubber Ball",
      "chance": 95000,
-     "minCount": 8,
-     "maxCount": 108
+     "minCount": 11,
+     "maxCount": 229
     },
     {
-     "name": "Straw",
-     "chance": 95000,
-     "minCount": 8,
-     "maxCount": 108
-    },
-    {
-     "name": "Bird Beak",
-     "chance": 95000,
+     "name": "eruption ears",
+     "chance": 28511,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "Feather",
+     "name": "Nail",
      "chance": 95000,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Red Wing",
-     "chance": 42768,
-     "minCount": 1,
-     "maxCount": 1
+     "minCount": 5,
+     "maxCount": 5
     },
     {
      "name": "Heart Stone",
@@ -49077,28 +52032,28 @@
    "experience": 19508,
    "loot": [
     {
-     "name": "Rubber Ball",
-     "chance": 95000,
-     "minCount": 23,
-     "maxCount": 482
-    },
-    {
-     "name": "Nail",
-     "chance": 95000,
-     "minCount": 8,
-     "maxCount": 8
-    },
-    {
      "name": "cute ball",
      "chance": 95000,
-     "minCount": 8,
-     "maxCount": 8
+     "minCount": 2,
+     "maxCount": 2
+    },
+    {
+     "name": "Rubber Ball",
+     "chance": 95000,
+     "minCount": 20,
+     "maxCount": 857
     },
     {
      "name": "eruption ears",
      "chance": 95000,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Nail",
+     "chance": 95000,
+     "minCount": 12,
+     "maxCount": 12
     },
     {
      "name": "Heart Stone",
@@ -49205,16 +52160,16 @@
      "maxCount": 1
     },
     {
-     "name": "Rubber Ball",
-     "chance": 85549,
-     "minCount": 11,
-     "maxCount": 55
+     "name": "samurai hair",
+     "chance": 1046,
+     "minCount": 1,
+     "maxCount": 1
     },
     {
-     "name": "Band Aid",
-     "chance": 85549,
-     "minCount": 11,
-     "maxCount": 255
+     "name": "band-aid",
+     "chance": 64360,
+     "minCount": 1,
+     "maxCount": 10
     }
    ],
    "attacks": [
@@ -49302,22 +52257,22 @@
    "experience": 2168,
    "loot": [
     {
-     "name": "Dark Gem",
-     "chance": 77953,
-     "minCount": 7,
-     "maxCount": 144
+     "name": "Big Crystal",
+     "chance": 25428,
+     "minCount": 1,
+     "maxCount": 1
     },
     {
      "name": "Ruby",
-     "chance": 77953,
-     "minCount": 3,
-     "maxCount": 3
-    },
-    {
-     "name": "Big Crystal",
-     "chance": 28451,
+     "chance": 54596,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Ghost Essence",
+     "chance": 95000,
+     "minCount": 13,
+     "maxCount": 491
     },
     {
      "name": "Darkness Stone",
@@ -49428,16 +52383,16 @@
    "experience": 19508,
    "loot": [
     {
-     "name": "Piece of Steel",
-     "chance": 88953,
-     "minCount": 27,
-     "maxCount": 568
+     "name": "Metal Jaw",
+     "chance": 95000,
+     "minCount": 3,
+     "maxCount": 3
     },
     {
-     "name": "Metal Jaw",
-     "chance": 88953,
-     "minCount": 1,
-     "maxCount": 1
+     "name": "Piece of Steel",
+     "chance": 95000,
+     "minCount": 36,
+     "maxCount": 393
     },
     {
      "name": "Metal Stone",
@@ -49553,22 +52508,28 @@
      "maxCount": 1
     },
     {
+     "name": "Metal Hull",
+     "chance": 12700,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Piece of Steel",
-     "chance": 86581,
-     "minCount": 3,
-     "maxCount": 32
+     "chance": 95000,
+     "minCount": 11,
+     "maxCount": 53
+    },
+    {
+     "name": "Small Stone",
+     "chance": 95000,
+     "minCount": 11,
+     "maxCount": 53
     },
     {
      "name": "Stone Orb",
-     "chance": 86581,
-     "minCount": 2,
-     "maxCount": 7
-    },
-    {
-     "name": "Metal Hull",
-     "chance": 69594,
-     "minCount": 1,
-     "maxCount": 1
+     "chance": 95000,
+     "minCount": 3,
+     "maxCount": 3
     },
     {
      "name": "Metal Stone",
@@ -49654,22 +52615,28 @@
    "experience": 2168,
    "loot": [
     {
+     "name": "Metal Hull",
+     "chance": 37895,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Piece of Steel",
-     "chance": 82534,
-     "minCount": 20,
-     "maxCount": 296
+     "chance": 95000,
+     "minCount": 8,
+     "maxCount": 140
+    },
+    {
+     "name": "Small Stone",
+     "chance": 95000,
+     "minCount": 8,
+     "maxCount": 140
     },
     {
      "name": "Stone Orb",
-     "chance": 82534,
-     "minCount": 5,
-     "maxCount": 5
-    },
-    {
-     "name": "Metal Hull",
-     "chance": 44847,
-     "minCount": 1,
-     "maxCount": 1
+     "chance": 95000,
+     "minCount": 4,
+     "maxCount": 4
     },
     {
      "name": "Metal Stone",
@@ -49779,22 +52746,28 @@
    "experience": 19508,
    "loot": [
     {
+     "name": "Metal Hull",
+     "chance": 49613,
+     "minCount": 1,
+     "maxCount": 3
+    },
+    {
      "name": "Piece of Steel",
-     "chance": 80109,
-     "minCount": 26,
-     "maxCount": 542
+     "chance": 95000,
+     "minCount": 12,
+     "maxCount": 258
+    },
+    {
+     "name": "Small Stone",
+     "chance": 95000,
+     "minCount": 12,
+     "maxCount": 258
     },
     {
      "name": "Stone Orb",
-     "chance": 80109,
-     "minCount": 10,
-     "maxCount": 10
-    },
-    {
-     "name": "Metal Hull",
-     "chance": 80109,
-     "minCount": 1,
-     "maxCount": 1
+     "chance": 95000,
+     "minCount": 6,
+     "maxCount": 6
     },
     {
      "name": "Metal Stone",
@@ -49916,26 +52889,26 @@
      "maxCount": 1
     },
     {
-     "name": "Rubber Ball",
-     "chance": 94784,
-     "minCount": 5,
-     "maxCount": 23
-    },
-    {
-     "name": "Band Aid",
-     "chance": 94784,
-     "minCount": 5,
-     "maxCount": 117
-    },
-    {
-     "name": "Fur",
-     "chance": 89023,
+     "name": "mediling",
+     "chance": 1078,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "Iron Bracelet",
-     "chance": 23924,
+     "name": "band-aid",
+     "chance": 86223,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Enchanted Gem",
+     "chance": 86223,
+     "minCount": 1,
+     "maxCount": 5
+    },
+    {
+     "name": "Future Orb",
+     "chance": 21556,
      "minCount": 1,
      "maxCount": 1
     },
@@ -50029,16 +53002,28 @@
      "maxCount": 1
     },
     {
-     "name": "Rubber Ball",
-     "chance": 92969,
-     "minCount": 15,
-     "maxCount": 75
+     "name": "mediling",
+     "chance": 3797,
+     "minCount": 1,
+     "maxCount": 1
     },
     {
-     "name": "Band Aid",
-     "chance": 92969,
-     "minCount": 15,
-     "maxCount": 601
+     "name": "band-aid",
+     "chance": 71480,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
+     "name": "Enchanted Gem",
+     "chance": 71480,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
+     "name": "Future Orb",
+     "chance": 26805,
+     "minCount": 1,
+     "maxCount": 1
     }
    ],
    "attacks": [
@@ -50139,22 +53124,22 @@
      "maxCount": 1
     },
     {
-     "name": "Screw",
-     "chance": 52681,
+     "name": "shock topknot",
+     "chance": 13602,
      "minCount": 1,
-     "maxCount": 5
+     "maxCount": 1
+    },
+    {
+     "name": "Screw",
+     "chance": 95000,
+     "minCount": 11,
+     "maxCount": 115
     },
     {
      "name": "Electric Box",
-     "chance": 52681,
-     "minCount": 1,
-     "maxCount": 8
-    },
-    {
-     "name": "Electric Tail",
-     "chance": 13170,
-     "minCount": 1,
-     "maxCount": 1
+     "chance": 95000,
+     "minCount": 3,
+     "maxCount": 3
     },
     {
      "name": "Thunder Stone",
@@ -50253,22 +53238,22 @@
      "maxCount": 1
     },
     {
+     "name": "shock topknot",
+     "chance": 51767,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Screw",
-     "chance": 88527,
+     "chance": 95000,
      "minCount": 10,
-     "maxCount": 443
+     "maxCount": 441
     },
     {
      "name": "Electric Box",
-     "chance": 88527,
-     "minCount": 4,
-     "maxCount": 4
-    },
-    {
-     "name": "Electric Rat Tail",
-     "chance": 49052,
-     "minCount": 1,
-     "maxCount": 1
+     "chance": 95000,
+     "minCount": 5,
+     "maxCount": 5
     }
    ],
    "attacks": [
@@ -50370,32 +53355,32 @@
      "maxCount": 1
     },
     {
-     "name": "Essence of Fire",
-     "chance": 93284,
-     "minCount": 8,
-     "maxCount": 99
-    },
-    {
-     "name": "Fur",
-     "chance": 75675,
+     "name": "nu ball",
+     "chance": 10083,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Essence of Fire",
+     "chance": 95000,
+     "minCount": 8,
+     "maxCount": 39
+    },
+    {
+     "name": "Earth Ball",
+     "chance": 95000,
+     "minCount": 8,
+     "maxCount": 39
     },
     {
      "name": "Pot of Lava",
-     "chance": 66773,
+     "chance": 95000,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "Giant Piece of Fur",
-     "chance": 11574,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Nail",
-     "chance": 93284,
+     "name": "Sandbag",
+     "chance": 95000,
      "minCount": 1,
      "maxCount": 1
     },
@@ -50489,32 +53474,38 @@
      "maxCount": 1
     },
     {
-     "name": "Straw",
-     "chance": 95000,
-     "minCount": 8,
-     "maxCount": 159
-    },
-    {
-     "name": "Essence of Fire",
-     "chance": 95000,
-     "minCount": 8,
-     "maxCount": 159
-    },
-    {
-     "name": "Pot of Lava",
-     "chance": 95000,
-     "minCount": 3,
-     "maxCount": 3
-    },
-    {
-     "name": "Fire Tail",
-     "chance": 38830,
+     "name": "nu ball",
+     "chance": 45611,
      "minCount": 1,
      "maxCount": 1
     },
     {
-     "name": "Dragon Tooth",
-     "chance": 4515,
+     "name": "Essence of Fire",
+     "chance": 95000,
+     "minCount": 9,
+     "maxCount": 179
+    },
+    {
+     "name": "Earth Ball",
+     "chance": 95000,
+     "minCount": 9,
+     "maxCount": 179
+    },
+    {
+     "name": "Pot of Lava",
+     "chance": 95000,
+     "minCount": 2,
+     "maxCount": 2
+    },
+    {
+     "name": "Sandbag",
+     "chance": 95000,
+     "minCount": 2,
+     "maxCount": 2
+    },
+    {
+     "name": "mini volcano",
+     "chance": 10136,
      "minCount": 1,
      "maxCount": 1
     }
@@ -50749,22 +53740,22 @@
      "maxCount": 1
     },
     {
+     "name": "springs",
+     "chance": 12610,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Enchanted Gem",
      "chance": 95000,
-     "minCount": 9,
-     "maxCount": 75
+     "minCount": 8,
+     "maxCount": 82
     },
     {
      "name": "Future Orb",
      "chance": 95000,
      "minCount": 2,
      "maxCount": 2
-    },
-    {
-     "name": "Psychic Spoon",
-     "chance": 5518,
-     "minCount": 1,
-     "maxCount": 1
     },
     {
      "name": "Enigma Stone",
@@ -50855,28 +53846,22 @@
      "maxCount": 1
     },
     {
-     "name": "Rubber Ball",
-     "chance": 95000,
-     "minCount": 11,
-     "maxCount": 58
-    },
-    {
-     "name": "Future Orb",
-     "chance": 95000,
-     "minCount": 8,
-     "maxCount": 26
+     "name": "springs",
+     "chance": 67524,
+     "minCount": 1,
+     "maxCount": 1
     },
     {
      "name": "Enchanted Gem",
      "chance": 95000,
-     "minCount": 4,
-     "maxCount": 14
+     "minCount": 11,
+     "maxCount": 489
     },
     {
-     "name": "Mimic Clothes",
-     "chance": 6957,
-     "minCount": 1,
-     "maxCount": 1
+     "name": "Future Orb",
+     "chance": 95000,
+     "minCount": 4,
+     "maxCount": 4
     }
    ],
    "attacks": [
@@ -50985,22 +53970,22 @@
      "maxCount": 1
     },
     {
+     "name": "strange ball",
+     "chance": 8904,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Earth Ball",
      "chance": 95000,
-     "minCount": 2,
-     "maxCount": 21
+     "minCount": 7,
+     "maxCount": 75
     },
     {
      "name": "Sandbag",
      "chance": 95000,
-     "minCount": 1,
-     "maxCount": 4
-    },
-    {
-     "name": "Sand Tail",
-     "chance": 50592,
-     "minCount": 1,
-     "maxCount": 1
+     "minCount": 2,
+     "maxCount": 2
     },
     {
      "name": "Earth Stone",
@@ -51086,22 +54071,28 @@
    "experience": 1508,
    "loot": [
     {
+     "name": "Sand Tail",
+     "chance": 24531,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Dragon Scale",
+     "chance": 95000,
+     "minCount": 10,
+     "maxCount": 103
+    },
+    {
      "name": "Earth Ball",
-     "chance": 89582,
-     "minCount": 15,
-     "maxCount": 219
+     "chance": 95000,
+     "minCount": 10,
+     "maxCount": 103
     },
     {
      "name": "Sandbag",
-     "chance": 89582,
+     "chance": 95000,
      "minCount": 4,
      "maxCount": 4
-    },
-    {
-     "name": "Sand Tail",
-     "chance": 35960,
-     "minCount": 1,
-     "maxCount": 1
     },
     {
      "name": "Earth Stone",
@@ -51179,22 +54170,28 @@
    "experience": 19508,
    "loot": [
     {
+     "name": "Sand Tail",
+     "chance": 59056,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Dragon Scale",
+     "chance": 95000,
+     "minCount": 12,
+     "maxCount": 246
+    },
+    {
      "name": "Earth Ball",
      "chance": 95000,
-     "minCount": 21,
-     "maxCount": 443
+     "minCount": 12,
+     "maxCount": 246
     },
     {
      "name": "Sandbag",
      "chance": 95000,
-     "minCount": 8,
-     "maxCount": 8
-    },
-    {
-     "name": "Sand Tail",
-     "chance": 95000,
-     "minCount": 1,
-     "maxCount": 1
+     "minCount": 7,
+     "maxCount": 7
     },
     {
      "name": "Earth Stone",
@@ -51321,28 +54318,28 @@
    "experience": 19508,
    "loot": [
     {
+     "name": "Cactus Head",
+     "chance": 53964,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Seed",
-     "chance": 91209,
-     "minCount": 10,
-     "maxCount": 216
+     "chance": 95000,
+     "minCount": 11,
+     "maxCount": 225
     },
     {
      "name": "Dark Gem",
-     "chance": 91209,
-     "minCount": 10,
-     "maxCount": 216
+     "chance": 95000,
+     "minCount": 11,
+     "maxCount": 225
     },
     {
      "name": "Small Crown",
-     "chance": 91209,
-     "minCount": 4,
-     "maxCount": 4
-    },
-    {
-     "name": "Cactus Head",
-     "chance": 49923,
-     "minCount": 1,
-     "maxCount": 1
+     "chance": 95000,
+     "minCount": 3,
+     "maxCount": 3
     },
     {
      "name": "Leaf Stone",
@@ -51472,28 +54469,28 @@
      "maxCount": 1
     },
     {
+     "name": "cloud",
+     "chance": 28624,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Rubber Ball",
+     "chance": 95000,
+     "minCount": 24,
+     "maxCount": 121
+    },
+    {
      "name": "Straw",
      "chance": 95000,
-     "minCount": 18,
-     "maxCount": 184
+     "minCount": 24,
+     "maxCount": 121
     },
     {
-     "name": "Water Gem",
-     "chance": 95000,
-     "minCount": 14,
-     "maxCount": 42
-    },
-    {
-     "name": "Water Pendant",
+     "name": "Feather",
      "chance": 95000,
      "minCount": 4,
      "maxCount": 4
-    },
-    {
-     "name": "pelican wing",
-     "chance": 43777,
-     "minCount": 1,
-     "maxCount": 1
     }
    ],
    "attacks": [
@@ -51595,16 +54592,28 @@
      "maxCount": 1
     },
     {
-     "name": "Dragon Scale",
-     "chance": 95000,
-     "minCount": 7,
-     "maxCount": 62
+     "name": "cloud",
+     "chance": 70855,
+     "minCount": 1,
+     "maxCount": 1
     },
     {
-     "name": "Mini Wings",
+     "name": "Dragon Scale",
+     "chance": 95000,
+     "minCount": 14,
+     "maxCount": 295
+    },
+    {
+     "name": "Straw",
+     "chance": 95000,
+     "minCount": 14,
+     "maxCount": 295
+    },
+    {
+     "name": "Feather",
      "chance": 95000,
      "minCount": 4,
-     "maxCount": 13
+     "maxCount": 4
     }
    ],
    "attacks": [
@@ -51713,22 +54722,34 @@
      "maxCount": 1
     },
     {
+     "name": "tribe mark",
+     "chance": 30011,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Wool Ball",
+     "chance": 95000,
+     "minCount": 2,
+     "maxCount": 2
+    },
+    {
      "name": "Rubber Ball",
-     "chance": 77664,
-     "minCount": 18,
-     "maxCount": 179
+     "chance": 95000,
+     "minCount": 6,
+     "maxCount": 256
     },
     {
-     "name": "Nail",
-     "chance": 77664,
-     "minCount": 13,
-     "maxCount": 40
+     "name": "Bottles of Poison",
+     "chance": 95000,
+     "minCount": 6,
+     "maxCount": 387
     },
     {
-     "name": "cute ball",
-     "chance": 77664,
-     "minCount": 4,
-     "maxCount": 4
+     "name": "cat ear",
+     "chance": 22243,
+     "minCount": 1,
+     "maxCount": 1
     }
    ],
    "attacks": [
@@ -51839,22 +54860,22 @@
    "experience": 19508,
    "loot": [
     {
+     "name": "Poisonous Tail",
+     "chance": 71871,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Bottles of Poison",
      "chance": 95000,
-     "minCount": 29,
-     "maxCount": 589
+     "minCount": 14,
+     "maxCount": 612
     },
     {
      "name": "Tooth",
      "chance": 95000,
-     "minCount": 10,
-     "maxCount": 10
-    },
-    {
-     "name": "Poisonous Tail",
-     "chance": 95000,
-     "minCount": 1,
-     "maxCount": 1
+     "minCount": 11,
+     "maxCount": 11
     },
     {
      "name": "Venom Stone",
@@ -51961,22 +54982,22 @@
      "maxCount": 1
     },
     {
+     "name": "lobster claw",
+     "chance": 16769,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Water Gem",
-     "chance": 93060,
-     "minCount": 11,
-     "maxCount": 106
+     "chance": 95000,
+     "minCount": 14,
+     "maxCount": 141
     },
     {
      "name": "Water Pendant",
-     "chance": 93060,
-     "minCount": 3,
-     "maxCount": 3
-    },
-    {
-     "name": "Strange Thing",
-     "chance": 19744,
-     "minCount": 1,
-     "maxCount": 1
+     "chance": 95000,
+     "minCount": 4,
+     "maxCount": 4
     },
     {
      "name": "Water Stone",
@@ -52076,22 +55097,28 @@
      "maxCount": 1
     },
     {
+     "name": "lobster claw",
+     "chance": 55379,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Dark Gem",
+     "chance": 95000,
+     "minCount": 11,
+     "maxCount": 230
+    },
+    {
      "name": "Water Gem",
-     "chance": 93476,
-     "minCount": 10,
-     "maxCount": 419
+     "chance": 95000,
+     "minCount": 11,
+     "maxCount": 230
     },
     {
      "name": "Water Pendant",
-     "chance": 93476,
-     "minCount": 5,
-     "maxCount": 5
-    },
-    {
-     "name": "Squirtle Hull",
-     "chance": 48919,
-     "minCount": 1,
-     "maxCount": 1
+     "chance": 95000,
+     "minCount": 6,
+     "maxCount": 6
     }
    ],
    "attacks": [
@@ -52193,28 +55220,34 @@
      "maxCount": 1
     },
     {
+     "name": "pawn",
+     "chance": 13629,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Earth Ball",
      "chance": 95000,
-     "minCount": 10,
-     "maxCount": 105
+     "minCount": 11,
+     "maxCount": 57
     },
     {
      "name": "Enchanted Gem",
      "chance": 95000,
-     "minCount": 8,
-     "maxCount": 23
+     "minCount": 11,
+     "maxCount": 57
     },
     {
      "name": "Future Orb",
      "chance": 95000,
-     "minCount": 3,
-     "maxCount": 3
+     "minCount": 2,
+     "maxCount": 2
     },
     {
      "name": "Sandbag",
-     "chance": 24922,
-     "minCount": 1,
-     "maxCount": 1
+     "chance": 95000,
+     "minCount": 2,
+     "maxCount": 2
     }
    ],
    "attacks": [
@@ -52300,28 +55333,34 @@
      "maxCount": 1
     },
     {
+     "name": "pawn",
+     "chance": 58268,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Earth Ball",
      "chance": 95000,
-     "minCount": 8,
-     "maxCount": 85
+     "minCount": 12,
+     "maxCount": 242
+    },
+    {
+     "name": "Enchanted Gem",
+     "chance": 95000,
+     "minCount": 12,
+     "maxCount": 242
+    },
+    {
+     "name": "Future Orb",
+     "chance": 95000,
+     "minCount": 3,
+     "maxCount": 3
     },
     {
      "name": "Sandbag",
      "chance": 95000,
-     "minCount": 6,
-     "maxCount": 19
-    },
-    {
-     "name": "Horn",
-     "chance": 95000,
-     "minCount": 2,
-     "maxCount": 2
-    },
-    {
-     "name": "Horn Drill",
-     "chance": 20029,
-     "minCount": 1,
-     "maxCount": 1
+     "minCount": 3,
+     "maxCount": 3
     }
    ],
    "attacks": [
@@ -52440,14 +55479,14 @@
     {
      "name": "Ghost Essence",
      "chance": 95000,
-     "minCount": 7,
-     "maxCount": 70
+     "minCount": 17,
+     "maxCount": 726
     },
     {
-     "name": "ghost skull",
+     "name": "doll star",
      "chance": 95000,
-     "minCount": 5,
-     "maxCount": 15
+     "minCount": 1,
+     "maxCount": 2
     }
    ],
    "attacks": [
@@ -52556,20 +55595,14 @@
      "maxCount": 1
     },
     {
-     "name": "Bottles of Poison",
-     "chance": 94002,
-     "minCount": 8,
-     "maxCount": 86
-    },
-    {
      "name": "Ghost Essence",
-     "chance": 94002,
-     "minCount": 8,
-     "maxCount": 86
+     "chance": 95000,
+     "minCount": 12,
+     "maxCount": 232
     },
     {
-     "name": "Traces of Ghost",
-     "chance": 21232,
+     "name": "ghost skull",
+     "chance": 27588,
      "minCount": 1,
      "maxCount": 1
     }
@@ -52650,14 +55683,20 @@
     {
      "name": "Ghost Essence",
      "chance": 95000,
-     "minCount": 8,
-     "maxCount": 84
+     "minCount": 22,
+     "maxCount": 939
     },
     {
      "name": "ghost skull",
      "chance": 95000,
-     "minCount": 6,
-     "maxCount": 19
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "creepy eye",
+     "chance": 25935,
+     "minCount": 1,
+     "maxCount": 1
     }
    ],
    "attacks": [
@@ -52767,19 +55806,31 @@
      "maxCount": 1
     },
     {
+     "name": "palm leaves",
+     "chance": 54958,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Straw",
+     "chance": 95000,
+     "minCount": 11,
+     "maxCount": 229
+    },
+    {
      "name": "Seed",
      "chance": 95000,
-     "minCount": 14,
-     "maxCount": 139
+     "minCount": 11,
+     "maxCount": 229
     },
     {
-     "name": "Leaves",
+     "name": "Feather",
      "chance": 95000,
-     "minCount": 10,
-     "maxCount": 31
+     "minCount": 2,
+     "maxCount": 2
     },
     {
-     "name": "big seed",
+     "name": "Bird Beak",
      "chance": 95000,
      "minCount": 3,
      "maxCount": 3
@@ -52883,22 +55934,16 @@
      "maxCount": 1
     },
     {
-     "name": "Dark Gem",
-     "chance": 83593,
-     "minCount": 3,
-     "maxCount": 26
-    },
-    {
-     "name": "Ruby",
-     "chance": 83593,
-     "minCount": 2,
-     "maxCount": 6
-    },
-    {
-     "name": "Big Crystal",
-     "chance": 55116,
+     "name": "dark moon",
+     "chance": 16452,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Dark Gem",
+     "chance": 95000,
+     "minCount": 17,
+     "maxCount": 745
     },
     {
      "name": "Darkness Stone",
@@ -53015,20 +56060,20 @@
    "experience": 548,
    "loot": [
     {
+     "name": "ice blocks",
+     "chance": 11574,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Snowball",
-     "chance": 82751,
-     "minCount": 8,
-     "maxCount": 78
+     "chance": 95000,
+     "minCount": 10,
+     "maxCount": 97
     },
     {
      "name": "Ice Orb",
-     "chance": 82751,
-     "minCount": 2,
-     "maxCount": 2
-    },
-    {
-     "name": "ice blocks",
-     "chance": 8880,
+     "chance": 95000,
      "minCount": 1,
      "maxCount": 1
     }
@@ -53115,28 +56160,22 @@
      "maxCount": 1
     },
     {
-     "name": "Earth Ball",
-     "chance": 93167,
-     "minCount": 2,
-     "maxCount": 12
+     "name": "ice blocks",
+     "chance": 37474,
+     "minCount": 1,
+     "maxCount": 1
     },
     {
      "name": "Snowball",
-     "chance": 93167,
+     "chance": 95000,
+     "minCount": 7,
+     "maxCount": 319
+    },
+    {
+     "name": "Ice Orb",
+     "chance": 95000,
      "minCount": 2,
-     "maxCount": 24
-    },
-    {
-     "name": "Giant Piece of Fur",
-     "chance": 84438,
-     "minCount": 1,
      "maxCount": 2
-    },
-    {
-     "name": "Horn",
-     "chance": 42219,
-     "minCount": 1,
-     "maxCount": 1
     }
    ],
    "attacks": [
@@ -53356,40 +56395,40 @@
    "experience": 2168,
    "loot": [
     {
+     "name": "seal mustache",
+     "chance": 21337,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Snowball",
-     "chance": 87022,
-     "minCount": 7,
-     "maxCount": 106
+     "chance": 95000,
+     "minCount": 9,
+     "maxCount": 126
     },
     {
      "name": "Water Gem",
-     "chance": 87022,
-     "minCount": 7,
-     "maxCount": 106
+     "chance": 95000,
+     "minCount": 9,
+     "maxCount": 126
     },
     {
      "name": "Ice Orb",
-     "chance": 87022,
+     "chance": 12802,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Water Pendant",
+     "chance": 95000,
      "minCount": 2,
      "maxCount": 2
     },
     {
      "name": "Nail",
-     "chance": 87022,
-     "minCount": 2,
-     "maxCount": 2
-    },
-    {
-     "name": "Water Pendant",
-     "chance": 87022,
-     "minCount": 2,
-     "maxCount": 2
-    },
-    {
-     "name": "seal mustache",
-     "chance": 16874,
-     "minCount": 1,
-     "maxCount": 1
+     "chance": 95000,
+     "minCount": 4,
+     "maxCount": 4
     },
     {
      "name": "Ice Stone",
@@ -53505,52 +56544,40 @@
      "maxCount": 1
     },
     {
-     "name": "Straw",
+     "name": "seal mustache",
+     "chance": 57341,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Snowball",
      "chance": 95000,
-     "minCount": 12,
-     "maxCount": 62
+     "minCount": 14,
+     "maxCount": 298
     },
     {
      "name": "Water Gem",
      "chance": 95000,
-     "minCount": 9,
-     "maxCount": 28
+     "minCount": 14,
+     "maxCount": 298
     },
     {
-     "name": "Feather",
-     "chance": 95000,
-     "minCount": 5,
-     "maxCount": 14
+     "name": "Ice Orb",
+     "chance": 40476,
+     "minCount": 1,
+     "maxCount": 1
     },
     {
      "name": "Water Pendant",
      "chance": 95000,
-     "minCount": 5,
-     "maxCount": 5
+     "minCount": 4,
+     "maxCount": 4
     },
     {
-     "name": "Gyarados Tail",
-     "chance": 7396,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Air Tank",
-     "chance": 7396,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Diving Mask",
-     "chance": 7396,
-     "minCount": 1,
-     "maxCount": 1
-    },
-    {
-     "name": "Fins",
-     "chance": 7396,
-     "minCount": 1,
-     "maxCount": 1
+     "name": "Nail",
+     "chance": 95000,
+     "minCount": 7,
+     "maxCount": 7
     }
    ],
    "attacks": [
@@ -53653,16 +56680,16 @@
    "experience": 968,
    "loot": [
     {
-     "name": "Dragon Scale",
-     "chance": 95000,
-     "minCount": 18,
-     "maxCount": 272
-    },
-    {
      "name": "Mini Wings",
-     "chance": 47281,
+     "chance": 32638,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Dragon Scale",
+     "chance": 95000,
+     "minCount": 27,
+     "maxCount": 275
     }
    ],
    "attacks": [
@@ -53749,16 +56776,16 @@
    "experience": 2168,
    "loot": [
     {
-     "name": "Dragon Scale",
-     "chance": 95000,
-     "minCount": 19,
-     "maxCount": 394
-    },
-    {
      "name": "Mini Wings",
-     "chance": 94560,
+     "chance": 26591,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Dragon Scale",
+     "chance": 95000,
+     "minCount": 22,
+     "maxCount": 448
     },
     {
      "name": "Crystal Stone",
@@ -53877,16 +56904,16 @@
    "experience": 248,
    "loot": [
     {
+     "name": "Tech Ball",
+     "chance": 15777,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
      "name": "Piece of Steel",
      "chance": 95000,
      "minCount": 13,
-     "maxCount": 132
-    },
-    {
-     "name": "Tech Ball",
-     "chance": 17139,
-     "minCount": 1,
-     "maxCount": 1
+     "maxCount": 133
     }
    ],
    "attacks": [
@@ -53958,16 +56985,16 @@
    "experience": 19508,
    "loot": [
     {
-     "name": "Piece of Steel",
-     "chance": 95000,
-     "minCount": 28,
-     "maxCount": 586
-    },
-    {
      "name": "Tech Ball",
-     "chance": 95000,
+     "chance": 37460,
      "minCount": 1,
      "maxCount": 1
+    },
+    {
+     "name": "Piece of Steel",
+     "chance": 95000,
+     "minCount": 32,
+     "maxCount": 631
     },
     {
      "name": "Metal Stone",
@@ -54270,6 +57297,727 @@
    "area": "orre",
    "orreTier": 0.8,
    "orreXpMul": 2.32
+  },
+  {
+   "pokeId": 14009,
+   "name": "Mega Blastoise",
+   "looktype": 2052,
+   "description": "a mega blastoise",
+   "type1": "WATER",
+   "rarity": "RARE",
+   "baseHp": 79,
+   "baseAtk": 103,
+   "baseDef": 120,
+   "baseSpAtk": 135,
+   "baseSpDef": 115,
+   "baseSpeed": 78,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 1000000,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Water Gem",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 15
+    },
+    {
+     "name": "Water Pendant",
+     "chance": 8000,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Headbutt",
+     "power": 96,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 20000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Bubbles",
+     "power": 72,
+     "type": "WATER",
+     "category": "SPECIAL",
+     "cooldownMs": 8000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Water Gun",
+     "power": 96,
+     "type": "WATER",
+     "category": "SPECIAL",
+     "cooldownMs": 20000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Water Ball",
+     "power": 96,
+     "type": "WATER",
+     "category": "SPECIAL",
+     "cooldownMs": 25000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Water Pulse",
+     "power": 120,
+     "type": "WATER",
+     "category": "SPECIAL",
+     "cooldownMs": 30000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Muddy Water",
+     "power": 120,
+     "type": "WATER",
+     "category": "SPECIAL",
+     "cooldownMs": 40000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 14065,
+   "name": "Mega Alakazam",
+   "looktype": 2050,
+   "description": "a mega alakazam",
+   "type1": "PSYCHIC",
+   "rarity": "RARE",
+   "baseHp": 55,
+   "baseAtk": 50,
+   "baseDef": 65,
+   "baseSpAtk": 175,
+   "baseSpDef": 105,
+   "baseSpeed": 150,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 1000000,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Future Orb",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 2
+    },
+    {
+     "name": "Enchanted Gem",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 10
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Psybeam",
+     "power": 72,
+     "type": "PSYCHIC",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Psy Pulse",
+     "power": 96,
+     "type": "PSYCHIC",
+     "category": "SPECIAL",
+     "cooldownMs": 15000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Psy Ball",
+     "power": 96,
+     "type": "PSYCHIC",
+     "category": "SPECIAL",
+     "cooldownMs": 15000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Confusion",
+     "power": 120,
+     "type": "PSYCHIC",
+     "category": "SPECIAL",
+     "cooldownMs": 30000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Psychic",
+     "power": 120,
+     "type": "PSYCHIC",
+     "category": "SPECIAL",
+     "cooldownMs": 40000,
+     "learnLevel": 40
+    },
+    {
+     "name": "Psychokinesis",
+     "power": 140,
+     "type": "PSYCHIC",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 50
+    }
+   ]
+  },
+  {
+   "pokeId": 14282,
+   "name": "Mega Gardevoir",
+   "looktype": 2200,
+   "description": "a mega gardevoir",
+   "type1": "PSYCHIC",
+   "type2": "FAIRY",
+   "rarity": "RARE",
+   "baseHp": 68,
+   "baseAtk": 85,
+   "baseDef": 65,
+   "baseSpAtk": 165,
+   "baseSpDef": 135,
+   "baseSpeed": 100,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 0,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Enchanted Gem",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
+     "name": "Comb",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Future Orb",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Cure Flower",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Enigma Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Heart Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Charm",
+     "power": 56,
+     "type": "FAIRY",
+     "category": "PHYSICAL",
+     "cooldownMs": 60000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Dazzling Gleam",
+     "power": 56,
+     "type": "FAIRY",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 5
+    },
+    {
+     "name": "Instant Teleportation",
+     "power": 10,
+     "type": "PSYCHIC",
+     "category": "SPECIAL",
+     "cooldownMs": 20000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Confusion",
+     "power": 80,
+     "type": "PSYCHIC",
+     "category": "SPECIAL",
+     "cooldownMs": 25000,
+     "learnLevel": 16
+    },
+    {
+     "name": "Psychic",
+     "power": 96,
+     "type": "PSYCHIC",
+     "category": "SPECIAL",
+     "cooldownMs": 25000,
+     "learnLevel": 22
+    },
+    {
+     "name": "Stored Power",
+     "power": 120,
+     "type": "PSYCHIC",
+     "category": "SPECIAL",
+     "cooldownMs": 60000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Healing Wish",
+     "power": 56,
+     "type": "PSYCHIC",
+     "category": "PHYSICAL",
+     "cooldownMs": 150000,
+     "learnLevel": 38
+    },
+    {
+     "name": "Moonblast",
+     "power": 95,
+     "type": "FAIRY",
+     "category": "SPECIAL",
+     "cooldownMs": 50000,
+     "learnLevel": 46
+    }
+   ]
+  },
+  {
+   "pokeId": 14302,
+   "name": "Mega Sableye",
+   "looktype": 2177,
+   "description": "a mega sableye",
+   "type1": "DARK",
+   "type2": "GHOST",
+   "rarity": "RARE",
+   "baseHp": 50,
+   "baseAtk": 85,
+   "baseDef": 125,
+   "baseSpAtk": 85,
+   "baseSpDef": 115,
+   "baseSpeed": 20,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 0,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Dark Gem",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
+     "name": "Ruby",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Big Crystal",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Darkness Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Fury Swipes",
+     "power": 96,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 15000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Shadow Ball",
+     "power": 56,
+     "type": "GHOST",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 5
+    },
+    {
+     "name": "Shadow Sphere",
+     "power": 100,
+     "type": "GHOST",
+     "category": "SPECIAL",
+     "cooldownMs": 15000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Feint Attack",
+     "power": 80,
+     "type": "DARK",
+     "category": "PHYSICAL",
+     "cooldownMs": 25000,
+     "learnLevel": 16
+    },
+    {
+     "name": "Night Shade",
+     "power": 56,
+     "type": "GHOST",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 22
+    },
+    {
+     "name": "Shadow Claw",
+     "power": 144,
+     "type": "GHOST",
+     "category": "PHYSICAL",
+     "cooldownMs": 30000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Shadow Sneak",
+     "power": 40,
+     "type": "GHOST",
+     "category": "PHYSICAL",
+     "cooldownMs": 30000,
+     "learnLevel": 38
+    },
+    {
+     "name": "Recover",
+     "power": 160,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 60000,
+     "learnLevel": 46
+    },
+    {
+     "name": "Endless Hollow",
+     "power": 600,
+     "type": "DARK",
+     "category": "PHYSICAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1,
+     "tm": "DARK"
+    }
+   ]
+  },
+  {
+   "pokeId": 14334,
+   "name": "Mega Altaria",
+   "looktype": 8686,
+   "description": "a mega altaria",
+   "type1": "DRAGON",
+   "type2": "FAIRY",
+   "rarity": "RARE",
+   "baseHp": 75,
+   "baseAtk": 110,
+   "baseDef": 110,
+   "baseSpAtk": 110,
+   "baseSpDef": 105,
+   "baseSpeed": 80,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 1000000,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Dragon Scale",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 15
+    },
+    {
+     "name": "Mini Wings",
+     "chance": 2200,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Attract",
+     "power": 10,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Pluck",
+     "power": 96,
+     "type": "FLYING",
+     "category": "PHYSICAL",
+     "cooldownMs": 10000,
+     "learnLevel": 5
+    },
+    {
+     "name": "Sing",
+     "power": 10,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 48000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Dragon Breath",
+     "power": 120,
+     "type": "DRAGON",
+     "category": "SPECIAL",
+     "cooldownMs": 30000,
+     "learnLevel": 16
+    },
+    {
+     "name": "Dragon Mist",
+     "power": 80,
+     "type": "DRAGON",
+     "category": "SPECIAL",
+     "cooldownMs": 40000,
+     "learnLevel": 22
+    },
+    {
+     "name": "Sky Attack",
+     "power": 120,
+     "type": "FLYING",
+     "category": "PHYSICAL",
+     "cooldownMs": 80000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Roost",
+     "power": 160,
+     "type": "FLYING",
+     "category": "PHYSICAL",
+     "cooldownMs": 80000,
+     "learnLevel": 38
+    },
+    {
+     "name": "Tailwind",
+     "power": 10,
+     "type": "FLYING",
+     "category": "SPECIAL",
+     "cooldownMs": 30000,
+     "learnLevel": 46
+    },
+    {
+     "name": "Mirror Move",
+     "power": 0,
+     "type": "NORMAL",
+     "category": "STATUS",
+     "cooldownMs": 40000,
+     "learnLevel": 54
+    }
+   ]
+  },
+  {
+   "pokeId": 14351,
+   "name": "Castform Fire",
+   "looktype": 2104,
+   "description": "a castform fire",
+   "type1": "FIRE",
+   "rarity": "RARE",
+   "baseHp": 70,
+   "baseAtk": 70,
+   "baseDef": 70,
+   "baseSpAtk": 70,
+   "baseSpDef": 70,
+   "baseSpeed": 70,
+   "huntLevel": 100,
+   "priceNpc": 120000,
+   "sellValue": 18000,
+   "experience": 6008,
+   "loot": [
+    {
+     "name": "Essence of Fire",
+     "chance": 70000,
+     "minCount": 1,
+     "maxCount": 8
+    },
+    {
+     "name": "Pot Of Lava",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 3
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Ember",
+     "power": 72,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Flame Charge",
+     "power": 96,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 18000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Flamethrower",
+     "power": 96,
+     "type": "FIRE",
+     "category": "PHYSICAL",
+     "cooldownMs": 25000,
+     "learnLevel": 20
+    },
+    {
+     "name": "Fire Spin",
+     "power": 120,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 35000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Fire Blast",
+     "power": 140,
+     "type": "FIRE",
+     "category": "SPECIAL",
+     "cooldownMs": 45000,
+     "learnLevel": 40
+    }
+   ]
+  },
+  {
+   "pokeId": 14448,
+   "name": "Mega Lucario",
+   "looktype": 2051,
+   "description": "a mega lucario",
+   "type1": "FIGHTING",
+   "type2": "STEEL",
+   "rarity": "RARE",
+   "baseHp": 70,
+   "baseAtk": 145,
+   "baseDef": 88,
+   "baseSpAtk": 140,
+   "baseSpDef": 70,
+   "baseSpeed": 112,
+   "huntLevel": 600,
+   "priceNpc": 50000000,
+   "sellValue": 0,
+   "experience": 216008,
+   "loot": [
+    {
+     "name": "Piece of Steel",
+     "chance": 80000,
+     "minCount": 1,
+     "maxCount": 21
+    },
+    {
+     "name": "Stone Orb",
+     "chance": 30000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Metal Hull",
+     "chance": 4250,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Metal Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    },
+    {
+     "name": "Rock Stone",
+     "chance": 1000,
+     "minCount": 1,
+     "maxCount": 1
+    }
+   ],
+   "attacks": [
+    {
+     "name": "Iron Head",
+     "power": 80,
+     "type": "STEEL",
+     "category": "PHYSICAL",
+     "cooldownMs": 10000,
+     "learnLevel": 1
+    },
+    {
+     "name": "Extreme Speed",
+     "power": 56,
+     "type": "NORMAL",
+     "category": "PHYSICAL",
+     "cooldownMs": 25000,
+     "learnLevel": 5
+    },
+    {
+     "name": "Aura Sphere",
+     "power": 80,
+     "type": "FIGHTING",
+     "category": "SPECIAL",
+     "cooldownMs": 25000,
+     "learnLevel": 10
+    },
+    {
+     "name": "Metal Claw",
+     "power": 56,
+     "type": "STEEL",
+     "category": "PHYSICAL",
+     "cooldownMs": 35000,
+     "learnLevel": 16
+    },
+    {
+     "name": "Bullet Punch",
+     "power": 56,
+     "type": "STEEL",
+     "category": "PHYSICAL",
+     "cooldownMs": 50000,
+     "learnLevel": 22
+    },
+    {
+     "name": "Meteor Mash",
+     "power": 140,
+     "type": "STEEL",
+     "category": "PHYSICAL",
+     "cooldownMs": 50000,
+     "learnLevel": 30
+    },
+    {
+     "name": "Metal Sound",
+     "power": 10,
+     "type": "STEEL",
+     "category": "SPECIAL",
+     "cooldownMs": 40000,
+     "learnLevel": 38
+    },
+    {
+     "name": "Bulk Up",
+     "power": 10,
+     "type": "FIGHTING",
+     "category": "PHYSICAL",
+     "cooldownMs": 50000,
+     "learnLevel": 46
+    },
+    {
+     "name": "Detect",
+     "power": 0,
+     "type": "FIGHTING",
+     "category": "STATUS",
+     "cooldownMs": 50000,
+     "learnLevel": 54
+    },
+    {
+     "name": "Agility",
+     "power": 10,
+     "type": "PSYCHIC",
+     "category": "PHYSICAL",
+     "cooldownMs": 40000,
+     "learnLevel": 62
+    }
+   ]
   }
  ]
 }
