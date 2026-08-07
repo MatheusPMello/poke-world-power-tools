@@ -9,6 +9,7 @@ export function useFilters() {
   const [allowTypeOverlap, setAllowTypeOverlap] = useState(false);
   const [selectedClan, setSelectedClan] = useState('Nenhum');
   const [restrictToClanElements, setRestrictToClanElements] = useState(false);
+  const [includeLegendaries, setIncludeLegendaries] = useState(true);
 
   return {
     activeFilter, setActiveFilter,
@@ -18,6 +19,7 @@ export function useFilters() {
     considerSpeed, setConsiderSpeed,
     allowTypeOverlap, setAllowTypeOverlap,
     selectedClan, setSelectedClan,
-    restrictToClanElements, setRestrictToClanElements
+    restrictToClanElements, setRestrictToClanElements,
+    includeLegendaries, setIncludeLegendaries
   };
 }

@@ -1,13 +1,20 @@
 import { CLANS } from './constants';
 
-export function calculateDamageScore(pokemon, include600 = true, considerCooldown = false, considerSpeed = false, selectedClan = 'Nenhum') {
+export function hasClanBonus(pokemon, selectedClan) {
+  if (!selectedClan || selectedClan === 'Nenhum') return false;
+  const clanTypes = CLANS[selectedClan] || [];
+  return clanTypes.includes(pokemon.type1?.toUpperCase()) || clanTypes.includes(pokemon.type2?.toUpperCase());
+}
+
+export function calculateDamageScore(pokemon, filters = {}) {
+  const { include600 = true, considerCooldown = false, considerSpeed = false, selectedClan = 'Nenhum' } = filters;
+  
   if (!pokemon.attacks || pokemon.attacks.length === 0) return 0;
   
   let maxBurst = 0;
   let totalDps = 0;
   
-  const clanTypes = CLANS[selectedClan] || [];
-  const hasClanBonus = clanTypes.includes(pokemon.type1?.toUpperCase()) || clanTypes.includes(pokemon.type2?.toUpperCase());
+  const clanBonusActive = hasClanBonus(pokemon, selectedClan);
   
   pokemon.attacks.forEach(attack => {
     const power = attack.power || 0;
@@ -23,7 +30,7 @@ export function calculateDamageScore(pokemon, include600 = true, considerCooldow
     }
     
     // Applica o bônus de Clã (Rank 5 = +30%)
-    if (hasClanBonus) {
+    if (clanBonusActive) {
       relevantStat *= 1.30;
     }
     
@@ -61,25 +68,30 @@ export function calculateDamageScore(pokemon, include600 = true, considerCooldow
   return finalScore;
 }
 
-export function processPokemons(creaturesData, include600 = true, considerCooldown = false, considerSpeed = false, selectedClan = 'Nenhum') {
-  const validPokemons = creaturesData.filter(p => p.attacks && p.attacks.length > 0 && p.looktype > 0 && p.pokeId < 10000);
+export function processPokemons(creaturesData, filters = {}) {
+  const { includeLegendaries = true, selectedClan = 'Nenhum' } = filters;
+  
+  let validPokemons = creaturesData.filter(p => p.attacks && p.attacks.length > 0 && p.looktype > 0 && p.pokeId < 10000);
+  
+  if (!includeLegendaries) {
+    validPokemons = validPokemons.filter(p => p.rarity !== 'LEGENDARY' && p.rarity !== 'MYTHIC');
+  }
   
   // Pass 1: Calcular scores brutos e encontrar os valores máximos para Normalização
   let absoluteMaxDamage = 0;
   let absoluteMaxSurv = 0;
 
   const rawProcessed = validPokemons.map(p => {
-    const rawDamage = calculateDamageScore(p, include600, considerCooldown, considerSpeed, selectedClan);
+    const rawDamage = calculateDamageScore(p, filters);
     
     // Status Secundários base (HP + Def + SpDef). 
     let baseHp = p.baseHp || 0;
     let baseDef = p.baseDef || 0;
     let baseSpDef = p.baseSpDef || 0;
     
-    const clanTypes = CLANS[selectedClan] || [];
-    const hasClanBonus = clanTypes.includes(p.type1?.toUpperCase()) || clanTypes.includes(p.type2?.toUpperCase());
+    const clanBonusActive = hasClanBonus(p, selectedClan);
     
-    if (hasClanBonus) {
+    if (clanBonusActive) {
       baseDef *= 1.30;
       baseSpDef *= 1.30;
       // HP doesn't receive clan bonus according to the user's rules

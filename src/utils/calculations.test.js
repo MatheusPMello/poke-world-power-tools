@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { calculateDamageScore, autoBuildTeam, getTieredPokemons, processPokemons } from './calculations';
+import { calculateDamageScore, autoBuildTeam } from './calculations';
 
 describe('calculations.js', () => {
   describe('calculateDamageScore', () => {
@@ -18,7 +18,7 @@ describe('calculations.js', () => {
         ]
       };
       // Damage = 50 * 100 = 5000
-      expect(calculateDamageScore(pokemon, true, false, false, 'Nenhum')).toBe(5000);
+      expect(calculateDamageScore(pokemon, { include600: true, considerCooldown: false, considerSpeed: false, selectedClan: 'Nenhum' })).toBe(5000);
     });
 
     it('applies STAB bonus (1.5x)', () => {
@@ -30,7 +30,7 @@ describe('calculations.js', () => {
         ]
       };
       // Damage = 50 * 100 * 1.5 = 7500
-      expect(calculateDamageScore(pokemon, true, false, false, 'Nenhum')).toBe(7500);
+      expect(calculateDamageScore(pokemon, { include600: true, considerCooldown: false, considerSpeed: false, selectedClan: 'Nenhum' })).toBe(7500);
     });
 
     it('applies Clan bonus (1.3x to stats)', () => {
@@ -42,7 +42,7 @@ describe('calculations.js', () => {
         ]
       };
       // Damage = 50 * (100 * 1.3) = 6500
-      expect(calculateDamageScore(pokemon, true, false, false, 'Volcanic')).toBe(6500);
+      expect(calculateDamageScore(pokemon, { include600: true, considerCooldown: false, considerSpeed: false, selectedClan: 'Volcanic' })).toBe(6500);
     });
 
     it('calculates DPS properly with cooldown', () => {
@@ -54,7 +54,7 @@ describe('calculations.js', () => {
       };
       // Base damage = 5000
       // DPS = 5000 / (2000/1000) = 2500
-      expect(calculateDamageScore(pokemon, true, true, false, 'Nenhum')).toBe(2500);
+      expect(calculateDamageScore(pokemon, { include600: true, considerCooldown: true, considerSpeed: false, selectedClan: 'Nenhum' })).toBe(2500);
     });
   });
 

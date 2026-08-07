@@ -34,8 +34,7 @@ export default function SearchPokemon({ pokemons, onSelect }) {
             setIsOpen(true);
           }}
           onFocus={() => setIsOpen(true)}
-          className="filter-select select-padded"
-          style={{ paddingLeft: '32px', minWidth: '200px' }}
+          className="filter-select select-padded search-input"
         />
       </div>
       
@@ -53,13 +52,13 @@ export default function SearchPokemon({ pokemons, onSelect }) {
             >
               <PokemonImage pokeId={p.pokeId} name={p.name} className="search-result-img" />
               <span className="search-result-name">{p.name}</span>
-              <span className={`tier-badge ${p.tier}`} style={{ fontSize: '0.7rem', padding: '0.1rem 0.4rem', marginLeft: 'auto' }}>{p.tier}</span>
+              <span className={`tier-badge mini ${p.tier}`}>{p.tier}</span>
             </li>
           ))}
         </ul>
       )}
       {isOpen && query.trim() !== '' && filtered.length === 0 && (
-        <div className="search-dropdown glass empty" style={{ padding: '0.5rem', textAlign: 'center' }}>
+        <div className="search-dropdown glass empty">
           Nenhum Pokémon encontrado.
         </div>
       )}

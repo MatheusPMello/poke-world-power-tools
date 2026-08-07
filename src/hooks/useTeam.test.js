@@ -1,7 +1,7 @@
 import { renderHook, act } from '@testing-library/react';
 import { describe, it, expect, vi } from 'vitest';
 import { useTeam } from './useTeam';
-import * as calculations from '../utils/calculations';
+
 
 describe('useTeam Hook', () => {
   it('should initialize with an empty team', () => {

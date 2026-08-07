@@ -12,8 +12,18 @@ export default function ControlsPanel({ filters, types, onAutoBuild, pokemons, o
     considerCooldown, setConsiderCooldown,
     considerSpeed, setConsiderSpeed,
     allowTypeOverlap, setAllowTypeOverlap,
-    restrictToClanElements, setRestrictToClanElements
+    restrictToClanElements, setRestrictToClanElements,
+    includeLegendaries, setIncludeLegendaries
   } = filters;
+
+  const toggleConfigs = [
+    { label: "TMs (600+)", state: include600, setter: setInclude600 },
+    { label: "Cooldown", state: considerCooldown, setter: setConsiderCooldown },
+    { label: "Velocidade", state: considerSpeed, setter: setConsiderSpeed },
+    { label: "Permitir Tipos Repetidos", state: allowTypeOverlap, setter: setAllowTypeOverlap },
+    { label: "Apenas Clã", state: restrictToClanElements, setter: setRestrictToClanElements },
+    { label: "Lendários/Míticos", state: includeLegendaries, setter: setIncludeLegendaries },
+  ];
 
   return (
     <div className="control-panel glass">
@@ -83,61 +93,19 @@ export default function ControlsPanel({ filters, types, onAutoBuild, pokemons, o
       </div>
 
       <div className="control-group checkbox-group-container">
-        <label className="checkbox-label small-label">
-          <label className="toggle-switch">
-            <input
-              type="checkbox"
-              checked={include600}
-              onChange={(e) => setInclude600(e.target.checked)}
-            />
-            <span className="toggle-slider"></span>
+        {toggleConfigs.map(({ label, state, setter }) => (
+          <label key={label} className="checkbox-label small-label">
+            <label className="toggle-switch">
+              <input
+                type="checkbox"
+                checked={state}
+                onChange={(e) => setter(e.target.checked)}
+              />
+              <span className="toggle-slider"></span>
+            </label>
+            {label}
           </label>
-          TMs (600+)
-        </label>
-        <label className="checkbox-label small-label">
-          <label className="toggle-switch">
-            <input
-              type="checkbox"
-              checked={considerCooldown}
-              onChange={(e) => setConsiderCooldown(e.target.checked)}
-            />
-            <span className="toggle-slider"></span>
-          </label>
-          Cooldown
-        </label>
-        <label className="checkbox-label small-label">
-          <label className="toggle-switch">
-            <input
-              type="checkbox"
-              checked={considerSpeed}
-              onChange={(e) => setConsiderSpeed(e.target.checked)}
-            />
-            <span className="toggle-slider"></span>
-          </label>
-          Velocidade
-        </label>
-        <label className="checkbox-label small-label">
-          <label className="toggle-switch">
-            <input
-              type="checkbox"
-              checked={allowTypeOverlap}
-              onChange={(e) => setAllowTypeOverlap(e.target.checked)}
-            />
-            <span className="toggle-slider"></span>
-          </label>
-          Permitir Tipos Repetidos
-        </label>
-        <label className="checkbox-label small-label">
-          <label className="toggle-switch">
-            <input
-              type="checkbox"
-              checked={restrictToClanElements}
-              onChange={(e) => setRestrictToClanElements(e.target.checked)}
-            />
-            <span className="toggle-slider"></span>
-          </label>
-          Apenas Clã
-        </label>
+        ))}
       </div>
     </div>
   );

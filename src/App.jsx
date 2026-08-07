@@ -16,9 +16,6 @@ export default function App() {
   const {
     activeFilter,
     rankingMode,
-    include600,
-    considerCooldown,
-    considerSpeed,
     allowTypeOverlap,
     selectedClan,
     restrictToClanElements
@@ -30,8 +27,8 @@ export default function App() {
 
   // Step 1: Process all pokemons once
   const processedData = useMemo(() => {
-    return processPokemons(creatures, include600, considerCooldown, considerSpeed, selectedClan);
-  }, [creatures, include600, considerCooldown, considerSpeed, selectedClan]);
+    return processPokemons(creatures, filters);
+  }, [creatures, filters]);
 
   // Step 2: Sort and assign tiers based on the selected mode
   const pokemons = useMemo(() => {

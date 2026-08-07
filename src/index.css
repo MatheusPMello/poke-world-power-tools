@@ -403,6 +403,14 @@ input:focus-visible + .toggle-slider {
 .tier-badge.C { background: linear-gradient(135deg, #22c55e, #15803d); }
 .tier-badge.D { background: linear-gradient(135deg, #3b82f6, #1d4ed8); }
 
+.tier-badge.mini {
+  font-size: 0.7rem;
+  padding: 0.1rem 0.4rem;
+  margin-left: auto;
+  width: auto;
+  height: auto;
+}
+
 .tier-header h2 {
   font-size: 1.5rem;
   color: var(--text-primary);
@@ -690,6 +698,11 @@ input:focus-visible + .toggle-slider {
   position: relative;
   display: flex;
   align-items: center;
+}
+
+.search-input {
+  padding-left: 32px;
+  min-width: 200px;
 }
 
 .search-icon {
